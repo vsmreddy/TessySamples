@@ -8,8 +8,8 @@ set TESSYPROJECTFILE="%TESSYPRJPATH%\tessy\tessy.pdbx"
 set TESSYPRJPATH=%~dp0\CppCmdLine
 set TBSFILE="%~dp0\CppCmdLine.tbs"
 
-set TESTPROJECTNAME="CppCmdLine"
-set TESTCOLLECTION="CppCmdLine"
+set TESTPROJECTNAME="C++ Project"
+set TESTCOLLECTION="C++ Project"
 
 rem Starting TESSY headless if not already running
 rem -----------------------------------------------

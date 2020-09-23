@@ -8,8 +8,8 @@ set TESSYPROJECTFILE="%TESSYPRJPATH%\tessy\tessy.pdbx"
 set TESSYPRJPATH=%~dp0\CCmdLine
 set TBSFILE="%~dp0\CCmdLine.tbs"
 
-set TESTPROJECTNAME="CCmdLine"
-set TESTCOLLECTION="CCmdLine"
+set TESTPROJECTNAME="C Project"
+set TESTCOLLECTION="C Project"
 
 rem Starting TESSY headless if not already running
 rem -----------------------------------------------
