@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\tessy\config\configuration.xml"
+    database="$(PROJECTROOT)\tessy"
+    defaultEnvironment="GNU GCC Eclipse CDT Default"
+    description="Sample C project with TESSY"
+    enableSourceRoot="false"
+    identifier="a0341979-f0cc-4607-9511-d4e808c34525"
+    location="$(PROJECTROOT)\tessy"
+    name="C project"
+    projectVersion="5"
+    tessyVersion="4.2.8"
+    isTemplate="false"
+    isSample="false"/>

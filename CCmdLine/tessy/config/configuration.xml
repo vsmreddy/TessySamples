@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration version="3.0">
+ <environments>
+  <compiler name="GNU GCC">
+   <properties>
+    <property type="Directory" name="Compiler Includes" value="$(PROJECTROOT)\Include" flags="0x90040049"/>
+   </properties>
+   <target name="GNU GVD">
+    <properties/>
+    <environment name="(Default)" display="Seminar">
+     <properties>
+      <property type="String" name="Compiler Defines" value="MyDefine1,SEMINAR=1" flags="0x90040049"/>
+      <property type="File" name="Makefile Template" value="$(TESSY_SYSPATH)\templates\make\ts_make_socket.tpl" flags="0x80000079"/>
+     </properties>
+    </environment>
+    <environment name="(Default)" display="Default">
+     <properties>
+      <property type="File" name="Makefile Template" value="$(TESSY_SYSPATH)\templates\make\ts_make_socket.tpl" flags="0x80000079"/>
+     </properties>
+    </environment>
+   </target>
+   <target name="Eclipse CDT">
+    <properties/>
+    <environment name="(Default)" display="Seminar">
+     <properties>
+      <property type="String" name="Compiler Defines" value="MyDefine2,SEMINAR=1" flags="0x90040049"/>
+      <property type="File" name="Makefile Template" value="$(TESSY_SYSPATH)\templates\make\ts_make_socket.tpl" flags="0x80000079"/>
+     </properties>
+    </environment>
+    <environment name="(Default)" display="Default">
+     <properties>
+      <property type="File" name="Makefile Template" value="$(TESSY_SYSPATH)\templates\make\ts_make_socket.tpl" flags="0x80000079"/>
+     </properties>
+    </environment>
+   </target>
+  </compiler>
+ </environments>
+</configuration>
