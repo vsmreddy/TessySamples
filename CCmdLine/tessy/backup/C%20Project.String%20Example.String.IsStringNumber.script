@@ -1,0 +1,55 @@
+$testobject {
+	$comment """
+		Usage of Advanced Stub Functions to test a parameter of a called function
+	"""
+
+	$testcase 1 {
+		$name "Positive number to stack"
+		$uuid "2ba84b4a-d995-4571-b8dd-be4acbf8a8b1"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "dacab231-c545-47ce-88ee-36d0893ebbbc"
+			$inputs {
+				pCharBuf = target_pCharBuf
+				ulLen = 3
+				&target_pCharBuf[0] = 0x31
+				&target_pCharBuf[1] = 0x32
+				&target_pCharBuf[2] = 0x33
+				&target_pCharBuf[3] = 0
+			}
+			$outputs {
+				push_Stack(ulValue) = 123
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Negativ number to stack"
+		$uuid "2b714440-ba22-4a0d-91f9-752fa9c68f6d"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "d019a9c6-da16-44c4-936e-2e390c794b81"
+			$inputs {
+				pCharBuf = target_pCharBuf
+				ulLen = 3
+				&target_pCharBuf[0] = 0x2D
+				&target_pCharBuf[1] = 0x32
+				&target_pCharBuf[2] = 0x33
+				&target_pCharBuf[3] = 0
+			}
+			$outputs {
+				push_Stack(ulValue) = 0xFFFFFFE9
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

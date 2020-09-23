@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>
+	<variable name="SYS_ulTimerCNT"/>
+	<variable name="cDigit"/>
+	<variable name="cTempRecVals"/>
+	<variable name="eStackState"/>
+	<variable name="eTLState"/>
+	<variable name="sine_value"/>
+	<variable name="sine_values"/>
+	<variable name="stMemoryState"/>
+	<variable name="stTrafficLight"/>
+	<variable name="uErrorState"/>
+	<variable name="ulErrorState"/>
+	<variable name="ulMemory"/>
+	<variable name="ulStack"/>
+	<variable name="ulStackCounter"/>
+	<variable name="ulSysCurrentTime"/>
+	<variable name="ulSysLastTime"/>
+	<variable name="usHumidityRecVals"/>
+</variables>

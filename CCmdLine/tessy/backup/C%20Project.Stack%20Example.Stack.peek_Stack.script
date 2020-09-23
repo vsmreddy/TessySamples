@@ -1,0 +1,130 @@
+$testobject {
+	$comment """
+		Copy and paste of test data
+	"""
+	$declarations '''
+		/* Module specific Declarations */
+	'''
+	$definitions '''
+		/* Module specific Definitions */
+	'''
+	$stubfunctions {
+		void print_f(char * pChar) '''
+			/* Module specific Stub Function */
+		'''
+	}
+
+	$testcase 1 {
+		$name ""
+		$uuid "33b1de8b-b8c3-42bd-b56f-7a426a880f4a"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "01242349-8da2-4df1-9096-ca507b19bd12"
+			$inputs {
+				eStackState = RUNNING
+				uErrorState = ulBits
+				uErrorState.ulBits {
+					stack_state_wrong = 0
+					stack_underflow = 0
+				}
+				ulErrorState = ERR_no_error
+				ulStack[0] = *none*
+				ulStack[8] = 3
+				ulStack[9] = 2
+				ulStack[10] = 1
+				ulStackCounter = 10
+			}
+			$outputs {
+				eStackState = RUNNING
+				uErrorState = ulBits
+				uErrorState.ulBits {
+					stack_state_wrong = 0
+					stack_underflow = 0
+				}
+				ulErrorState = ERR_no_error
+				ulStackCounter = 10
+				return 2
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "bf373aa6-107e-4456-b45c-36f99809d8de"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "fdd9da0a-2f0b-46c0-af56-3fdc1d951a96"
+			$inputs {
+				eStackState = INIT
+				uErrorState = ulBits
+				uErrorState.ulBits {
+					stack_state_wrong = 0
+					stack_underflow = 0
+				}
+				ulErrorState = ERR_no_error
+				ulStack[0] = *none*
+				ulStack[8] = *none*
+				ulStack[9] = 1
+				ulStack[10] = 2
+				ulStackCounter = 10
+			}
+			$outputs {
+				eStackState = ERROR
+				uErrorState = ulBits
+				uErrorState.ulBits {
+					stack_state_wrong = 1
+					stack_underflow = 0
+				}
+				ulErrorState != 0
+				ulStackCounter = 10
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name ""
+		$uuid "4e503f50-df5f-4a97-9117-1a3674bdd61c"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "69f6ca12-60ed-49be-965a-f4ae8f5096ea"
+			$inputs {
+				eStackState = RUNNING
+				uErrorState = ulBits
+				uErrorState.ulBits {
+					stack_state_wrong = 0
+					stack_underflow = 0
+				}
+				ulErrorState = ERR_no_error
+				ulStack[0] = 2
+				ulStack[8] = *none*
+				ulStack[9] = *none*
+				ulStack[10] = *none*
+				ulStackCounter = 0
+			}
+			$outputs {
+				eStackState = ERROR
+				uErrorState = ulBits
+				uErrorState.ulBits {
+					stack_state_wrong = 1
+					stack_underflow = 1
+				}
+				ulErrorState > 0
+				ulStackCounter = 0
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

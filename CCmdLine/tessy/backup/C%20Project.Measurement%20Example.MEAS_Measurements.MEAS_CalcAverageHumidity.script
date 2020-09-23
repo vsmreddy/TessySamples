@@ -1,0 +1,337 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "cf079919-e6c5-4764-b8bd-ce3ddff15275"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "4075d390-cca9-4494-ac57-c6595fa4e05e"
+			$inputs {
+				usHumidityRecVals[0] = 18359
+				usHumidityRecVals[1] = 19414
+				usHumidityRecVals[2] = 25083
+				usHumidityRecVals[3] = 53334
+				usHumidityRecVals[4] = 15004
+				usHumidityRecVals[5] = 434
+				usHumidityRecVals[6] = 16130
+				usHumidityRecVals[7] = 28403
+				usHumidityRecVals[8] = 62168
+				usHumidityRecVals[9] = 44750
+				usHumidityRecVals[10] = 52448
+				usHumidityRecVals[11] = 36566
+				usHumidityRecVals[12] = 4608
+				usHumidityRecVals[13] = 31198
+				usHumidityRecVals[14] = 35176
+				usHumidityRecVals[15] = 21237
+				usHumidityRecVals[16] = 37931
+				usHumidityRecVals[17] = 60803
+				usHumidityRecVals[18] = 54523
+				usHumidityRecVals[19] = 36129
+			}
+			$outputs {
+				return 32684
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.2 {
+			$name ""
+			$uuid "b63dc1d1-44ff-4c9b-8cb4-8c07502e5336"
+			$inputs {
+				usHumidityRecVals[0] = 123
+				usHumidityRecVals[1] = 28
+				usHumidityRecVals[2] = 20
+				usHumidityRecVals[3] = 42
+				usHumidityRecVals[4] = 65
+				usHumidityRecVals[5] = 8
+				usHumidityRecVals[6] = 41
+				usHumidityRecVals[7] = 56
+				usHumidityRecVals[8] = 74
+				usHumidityRecVals[9] = 14
+				usHumidityRecVals[10] = 8
+				usHumidityRecVals[11] = 31
+				usHumidityRecVals[12] = 32
+				usHumidityRecVals[13] = 8
+				usHumidityRecVals[14] = 88
+				usHumidityRecVals[15] = 90
+				usHumidityRecVals[16] = 38
+				usHumidityRecVals[17] = 27
+				usHumidityRecVals[18] = 61
+				usHumidityRecVals[19] = 0
+			}
+			$outputs {
+				return 42
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.3 {
+			$name ""
+			$uuid "9a11acb6-ca61-4de1-bfe6-dde14906d8a6"
+			$inputs {
+				usHumidityRecVals[0] = 41826
+				usHumidityRecVals[1] = 7129
+				usHumidityRecVals[2] = 57805
+				usHumidityRecVals[3] = 62927
+				usHumidityRecVals[4] = 11577
+				usHumidityRecVals[5] = 39122
+				usHumidityRecVals[6] = 57778
+				usHumidityRecVals[7] = 20878
+				usHumidityRecVals[8] = 46232
+				usHumidityRecVals[9] = 58218
+				usHumidityRecVals[10] = 64865
+				usHumidityRecVals[11] = 26597
+				usHumidityRecVals[12] = 7472
+				usHumidityRecVals[13] = 4404
+				usHumidityRecVals[14] = 43149
+				usHumidityRecVals[15] = 49046
+				usHumidityRecVals[16] = 34847
+				usHumidityRecVals[17] = 63359
+				usHumidityRecVals[18] = 65107
+				usHumidityRecVals[19] = 27248
+			}
+			$outputs {
+				return 39479
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.4 {
+			$name ""
+			$uuid "ff374a55-0ece-4a1a-bc85-1dc7341f1315"
+			$inputs {
+				usHumidityRecVals[0] = 59
+				usHumidityRecVals[1] = 50
+				usHumidityRecVals[2] = 5
+				usHumidityRecVals[3] = 16
+				usHumidityRecVals[4] = 80
+				usHumidityRecVals[5] = 91
+				usHumidityRecVals[6] = 16
+				usHumidityRecVals[7] = 16
+				usHumidityRecVals[8] = 18
+				usHumidityRecVals[9] = 12
+				usHumidityRecVals[10] = 59
+				usHumidityRecVals[11] = 46
+				usHumidityRecVals[12] = 81
+				usHumidityRecVals[13] = 81
+				usHumidityRecVals[14] = 19
+				usHumidityRecVals[15] = 88
+				usHumidityRecVals[16] = 85
+				usHumidityRecVals[17] = 88
+				usHumidityRecVals[18] = 61
+				usHumidityRecVals[19] = 59
+			}
+			$outputs {
+				return 51
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.5 {
+			$name ""
+			$uuid "570e77c7-4970-4c02-a14f-f5c6ff882509"
+			$inputs {
+				usHumidityRecVals[0] = 10
+				usHumidityRecVals[1] = 9
+				usHumidityRecVals[2] = 9
+				usHumidityRecVals[3] = 5
+				usHumidityRecVals[4] = 1
+				usHumidityRecVals[5] = 2
+				usHumidityRecVals[6] = 8
+				usHumidityRecVals[7] = 9
+				usHumidityRecVals[8] = 10
+				usHumidityRecVals[9] = 9
+				usHumidityRecVals[10] = 3
+				usHumidityRecVals[11] = 0
+				usHumidityRecVals[12] = 4
+				usHumidityRecVals[13] = 7
+				usHumidityRecVals[14] = 10
+				usHumidityRecVals[15] = 7
+				usHumidityRecVals[16] = 2
+				usHumidityRecVals[17] = 3
+				usHumidityRecVals[18] = 0
+				usHumidityRecVals[19] = 4
+			}
+			$outputs {
+				return 5
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.6 {
+			$name ""
+			$uuid "af97b283-9114-43a9-aaad-d56801b3267c"
+			$inputs {
+				usHumidityRecVals[0] = 1339
+				usHumidityRecVals[1] = 504
+				usHumidityRecVals[2] = 748
+				usHumidityRecVals[3] = 9497
+				usHumidityRecVals[4] = 1777
+				usHumidityRecVals[5] = 6088
+				usHumidityRecVals[6] = 632
+				usHumidityRecVals[7] = 2853
+				usHumidityRecVals[8] = 295
+				usHumidityRecVals[9] = 3561
+				usHumidityRecVals[10] = 8380
+				usHumidityRecVals[11] = 3912
+				usHumidityRecVals[12] = 1635
+				usHumidityRecVals[13] = 4064
+				usHumidityRecVals[14] = 7531
+				usHumidityRecVals[15] = 1018
+				usHumidityRecVals[16] = 2036
+				usHumidityRecVals[17] = 6250
+				usHumidityRecVals[18] = 5555
+				usHumidityRecVals[19] = 2279
+			}
+			$outputs {
+				return 3497
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.7 {
+			$name ""
+			$uuid "a70cdf93-0ee0-4598-b1ff-2b37941dabbd"
+			$inputs {
+				usHumidityRecVals[0] = 54734
+				usHumidityRecVals[1] = 55953
+				usHumidityRecVals[2] = 4007
+				usHumidityRecVals[3] = 26393
+				usHumidityRecVals[4] = 16495
+				usHumidityRecVals[5] = 317
+				usHumidityRecVals[6] = 59720
+				usHumidityRecVals[7] = 29178
+				usHumidityRecVals[8] = 21154
+				usHumidityRecVals[9] = 55267
+				usHumidityRecVals[10] = 47982
+				usHumidityRecVals[11] = 23816
+				usHumidityRecVals[12] = 13030
+				usHumidityRecVals[13] = 52907
+				usHumidityRecVals[14] = 7241
+				usHumidityRecVals[15] = 26464
+				usHumidityRecVals[16] = 12677
+				usHumidityRecVals[17] = 21142
+				usHumidityRecVals[18] = 18998
+				usHumidityRecVals[19] = 56688
+			}
+			$outputs {
+				return 30208
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.8 {
+			$name ""
+			$uuid "7942c144-1233-4043-966b-9fa54567c646"
+			$inputs {
+				usHumidityRecVals[0] = 58069
+				usHumidityRecVals[1] = 16392
+				usHumidityRecVals[2] = 25167
+				usHumidityRecVals[3] = 65524
+				usHumidityRecVals[4] = 36233
+				usHumidityRecVals[5] = 34600
+				usHumidityRecVals[6] = 11028
+				usHumidityRecVals[7] = 30055
+				usHumidityRecVals[8] = 46160
+				usHumidityRecVals[9] = 50480
+				usHumidityRecVals[10] = 6212
+				usHumidityRecVals[11] = 28830
+				usHumidityRecVals[12] = 37478
+				usHumidityRecVals[13] = 27718
+				usHumidityRecVals[14] = 38551
+				usHumidityRecVals[15] = 54210
+				usHumidityRecVals[16] = 51431
+				usHumidityRecVals[17] = 19061
+				usHumidityRecVals[18] = 9183
+				usHumidityRecVals[19] = 5342
+			}
+			$outputs {
+				return 32586
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.9 {
+			$name ""
+			$uuid "60493904-e40f-488b-9a11-e36f3ad39c02"
+			$inputs {
+				usHumidityRecVals[0] = 53
+				usHumidityRecVals[1] = 112
+				usHumidityRecVals[2] = 218
+				usHumidityRecVals[3] = 23
+				usHumidityRecVals[4] = 32
+				usHumidityRecVals[5] = 174
+				usHumidityRecVals[6] = 184
+				usHumidityRecVals[7] = 152
+				usHumidityRecVals[8] = 107
+				usHumidityRecVals[9] = 109
+				usHumidityRecVals[10] = 249
+				usHumidityRecVals[11] = 137
+				usHumidityRecVals[12] = 103
+				usHumidityRecVals[13] = 7
+				usHumidityRecVals[14] = 217
+				usHumidityRecVals[15] = 163
+				usHumidityRecVals[16] = 11
+				usHumidityRecVals[17] = 200
+				usHumidityRecVals[18] = 146
+				usHumidityRecVals[19] = 14
+			}
+			$outputs {
+				return 120
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.10 {
+			$name ""
+			$uuid "3a827532-c3b5-459e-9876-71ffdc67556d"
+			$inputs {
+				usHumidityRecVals[0] = 109
+				usHumidityRecVals[1] = 53
+				usHumidityRecVals[2] = 79
+				usHumidityRecVals[3] = 92
+				usHumidityRecVals[4] = 112
+				usHumidityRecVals[5] = 108
+				usHumidityRecVals[6] = 117
+				usHumidityRecVals[7] = 98
+				usHumidityRecVals[8] = 48
+				usHumidityRecVals[9] = 20
+				usHumidityRecVals[10] = 20
+				usHumidityRecVals[11] = 29
+				usHumidityRecVals[12] = 18
+				usHumidityRecVals[13] = 108
+				usHumidityRecVals[14] = 36
+				usHumidityRecVals[15] = 114
+				usHumidityRecVals[16] = 33
+				usHumidityRecVals[17] = 114
+				usHumidityRecVals[18] = 33
+				usHumidityRecVals[19] = 79
+			}
+			$outputs {
+				return 71
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

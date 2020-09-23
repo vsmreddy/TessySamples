@@ -1,0 +1,68 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "2aaf6ef1-b9c6-416f-8849-ea9a45a1fb36"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "85c1c9ea-b224-462f-806e-cff66d8d011e"
+			$inputs {
+				SYS_ulTimerCNT = 0xFFFFFFFF
+				ulSysCurrentTime = 0
+				ulSysLastTime = 0xFFFFFFF0
+			}
+			$outputs {
+				ulSysCurrentTime = 0xFFFFFFFF
+				return 0x0000000F
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "59136728-113c-4543-8b9e-355a0fab5488"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "939a768e-66ef-4c91-8306-56da14bbfd1f"
+			$inputs {
+				SYS_ulTimerCNT = 0x00000001
+				ulSysCurrentTime = 0
+				ulSysLastTime = 0xFFFFFFFF
+			}
+			$outputs {
+				ulSysCurrentTime = 0x00000001
+				return 0x00000002
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name ""
+		$uuid "d468f37d-5135-4fb9-a8c6-22a23e2edc4f"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "88e1c336-a438-4721-862b-65e6904bd5c8"
+			$inputs {
+				SYS_ulTimerCNT = 0x80000000
+				ulSysCurrentTime = 0
+				ulSysLastTime = 0xF0000000
+			}
+			$outputs {
+				ulSysCurrentTime = 0x80000000
+				return 0x90000000
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

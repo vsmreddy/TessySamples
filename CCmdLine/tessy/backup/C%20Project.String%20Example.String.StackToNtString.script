@@ -1,0 +1,125 @@
+$testobject {
+	$comment """
+		Usage of Advanced Stub Functions to define the return value of a called function
+	"""
+
+	$testcase 1 {
+		$name "Positive number on stack"
+		$uuid "36603e3b-aa13-451a-a88d-efcc2d1bf65e"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "b5331907-47a8-4810-9086-c158ab94fd9e"
+			$inputs {
+				pop_Stack() = 1234
+				pCharBuf = target_pCharBuf
+				&target_pCharBuf[0] = 0xFF
+				&target_pCharBuf[1] = 0xFF
+				&target_pCharBuf[2] = 0xFF
+				&target_pCharBuf[3] = 0xFF
+				&target_pCharBuf[4] = 0xFF
+				&target_pCharBuf[5] = 0xFF
+				&target_pCharBuf[6] = 0xFF
+				&target_pCharBuf[7] = 0xFF
+				&target_pCharBuf[8] = 0xFF
+				&target_pCharBuf[9] = 0xFF
+			}
+			$outputs {
+				return 4
+				&target_pCharBuf[0] = 0x31
+				&target_pCharBuf[1] = 0x32
+				&target_pCharBuf[2] = 0x33
+				&target_pCharBuf[3] = 0x34
+				&target_pCharBuf[4] = 0x00
+				&target_pCharBuf[5] = 0xFF
+				&target_pCharBuf[6] = 0xFF
+				&target_pCharBuf[7] = 0xFF
+				&target_pCharBuf[8] = 0xFF
+				&target_pCharBuf[9] = 0xFF
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Negative number on stack"
+		$uuid "184f0178-72ff-40a5-8793-1d42994ec828"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "8195c9d1-0a21-4349-b77e-2a4d1b1ba7fd"
+			$inputs {
+				pop_Stack() = -56789
+				pCharBuf = target_pCharBuf
+				&target_pCharBuf[0] = 0xFF
+				&target_pCharBuf[1] = 0xFF
+				&target_pCharBuf[2] = 0xFF
+				&target_pCharBuf[3] = 0xFF
+				&target_pCharBuf[4] = 0xFF
+				&target_pCharBuf[5] = 0xFF
+				&target_pCharBuf[6] = 0xFF
+				&target_pCharBuf[7] = 0xFF
+				&target_pCharBuf[8] = 0xFF
+				&target_pCharBuf[9] = 0xFF
+			}
+			$outputs {
+				return 6
+				&target_pCharBuf[0] = 0x2D
+				&target_pCharBuf[1] = 0x35
+				&target_pCharBuf[2] = 0x36
+				&target_pCharBuf[3] = 0x37
+				&target_pCharBuf[4] = 0x38
+				&target_pCharBuf[5] = 0x39
+				&target_pCharBuf[6] = 0x00
+				&target_pCharBuf[7] = 0xFF
+				&target_pCharBuf[8] = 0xFF
+				&target_pCharBuf[9] = 0xFF
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "NULL on stack"
+		$uuid "b4d13b11-4a74-4dc7-b686-e2bb1d7b9dec"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "a567e8de-a1d9-44a9-8aa6-d32f359e0cd2"
+			$inputs {
+				pop_Stack() = 0
+				pCharBuf = target_pCharBuf
+				&target_pCharBuf[0] = 0xFF
+				&target_pCharBuf[1] = 0xFF
+				&target_pCharBuf[2] = 0xFF
+				&target_pCharBuf[3] = 0xFF
+				&target_pCharBuf[4] = 0xFF
+				&target_pCharBuf[5] = 0xFF
+				&target_pCharBuf[6] = 0xFF
+				&target_pCharBuf[7] = 0xFF
+				&target_pCharBuf[8] = 0xFF
+				&target_pCharBuf[9] = 0xFF
+			}
+			$outputs {
+				return 1
+				&target_pCharBuf[0] = 0x30
+				&target_pCharBuf[1] = 0x00
+				&target_pCharBuf[2] = 0xFF
+				&target_pCharBuf[3] = 0xFF
+				&target_pCharBuf[4] = 0xFF
+				&target_pCharBuf[5] = 0xFF
+				&target_pCharBuf[6] = 0xFF
+				&target_pCharBuf[7] = 0xFF
+				&target_pCharBuf[8] = 0xFF
+				&target_pCharBuf[9] = 0xFF
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

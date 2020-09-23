@@ -1,0 +1,113 @@
+$testobject {
+	$comment """
+		Coverage measurment
+	"""
+
+	$testcase 1 {
+		$name "Number is 789"
+		$uuid "dca66b37-f663-4306-b442-26509747cf13"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "a7ef74b1-3bf0-41ff-9d24-c4547cc3720b"
+			$inputs {
+				eStackState = RUNNING
+				ulStackCounter = 0
+				pCharBuf = target_pCharBuf
+				ulLen = 3
+				&target_pCharBuf[0] = 0x37
+				&target_pCharBuf[1] = 0x38
+				&target_pCharBuf[2] = 0x39
+				&target_pCharBuf[3] = 0
+			}
+			$outputs {
+				ulStack[0] = 789
+				ulStackCounter = 1
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Number is -1"
+		$uuid "cddc914e-41d2-43bc-a1a1-61cace195003"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "b40750cd-fba4-4b7a-8dff-22e764e3e12e"
+			$inputs {
+				eStackState = RUNNING
+				ulStackCounter = 0
+				pCharBuf = target_pCharBuf
+				ulLen = 2
+				&target_pCharBuf[0] = 0x2D
+				&target_pCharBuf[1] = 0x31
+				&target_pCharBuf[2] = 0
+			}
+			$outputs {
+				ulStack[0] = 0xFFFFFFFF
+				ulStackCounter = 1
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "Length is 0"
+		$uuid "e8146e15-4722-464e-be91-c7fc7ee1d59b"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "0e802cb3-4944-44fc-9f8b-2ca0ffaf79de"
+			$inputs {
+				eStackState = RUNNING
+				ulStackCounter = 0
+				pCharBuf = target_pCharBuf
+				ulLen = 0
+				&target_pCharBuf[0] = 0x31
+				&target_pCharBuf[1] = 0x32
+				&target_pCharBuf[2] = 0x33
+				&target_pCharBuf[3] = 0
+			}
+			$outputs {
+				ulStack[0] = *none*
+				ulStackCounter = 0
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 4 {
+		$name "No Number"
+		$uuid "9361dced-f03f-4ce8-bf9f-46809d7b2a1b"
+
+		$teststep 4.1 {
+			$name ""
+			$uuid "4c47a4f6-22ef-431e-be0d-c8458918f2ab"
+			$inputs {
+				eStackState = RUNNING
+				ulStackCounter = 0
+				pCharBuf = target_pCharBuf
+				ulLen = 2
+				&target_pCharBuf[0] = 0xFF
+			}
+			$outputs {
+				ulStack[0] = *none*
+				ulStackCounter = 0
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

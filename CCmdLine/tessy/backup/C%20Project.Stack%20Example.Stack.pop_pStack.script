@@ -1,0 +1,59 @@
+$testobject {
+	$declarations '''
+		/* Module specific Declarations */
+	'''
+	$definitions '''
+		/* Module specific Definitions */
+	'''
+	$stubfunctions {
+		void print_f(char * pChar) '''
+			/* Module specific Stub Function */
+		'''
+	}
+
+	$testcase 1 {
+		$name "Pointer to stack is valid; Read value from stack, no error"
+		$uuid "44cae4f6-f17b-4f9f-b699-984e779abd51"
+		$specification """
+			Stack contains correct values, no errors
+		"""
+		$description """
+			Value from top of the stack is returned
+		"""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "d3fba35a-4be2-4a43-95ac-5a59347d31c0"
+			$inputs {
+				eStackState = RUNNING
+				ulErrorState = ERR_no_error
+				ulStackCounter = 4
+				pStack = target_pStack
+				&target_pStack[0] = 4839
+				&target_pStack[1] = 55852
+				&target_pStack[2] = 7539
+				&target_pStack[3] = 41039
+				&target_pStack[4] = 6396
+				&target_pStack[5] = 11434
+				&target_pStack[6] = 9030
+				&target_pStack[7] = 38547
+				&target_pStack[8] = 17860
+				&target_pStack[9] = 30509
+			}
+			$outputs {
+				eStackState = RUNNING
+				uErrorState = ulBits
+				uErrorState.ulBits {
+					stack_state_wrong = 0
+					stack_underflow = 0
+				}
+				ulErrorState = ERR_no_error
+				ulStackCounter = 3
+				return 41039
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

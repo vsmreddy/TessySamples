@@ -1,0 +1,100 @@
+$testobject {
+	$comment """
+		All test data are generated in TESSY user code
+	"""
+	$declarations '''
+		#define TS_PUSH_STACK_MAXCALL 2 
+		
+			/* pop_Stack() */
+			extern unsigned int TS_pop_Stack_return[TS_PUSH_STACK_MAXCALL];
+			/* push_Stack() */
+			extern unsigned int TS_push_Stack_ulValue;
+	'''
+	$definitions '''
+		/* pop_Stack() */
+		unsigned int TS_pop_Stack_return[TS_PUSH_STACK_MAXCALL];
+		/* push_Stack() */
+		unsigned int TS_push_Stack_ulValue;
+	'''
+	$stubfunctions {
+		unsigned long pop_Stack() '''
+			unsigned long ulReturn = -1;
+			if (TS_CALL_COUNT <= TS_PUSH_STACK_MAXCALL) {
+				ulReturn = TS_pop_Stack_return[TS_CALL_COUNT - 1];
+			}
+			return ulReturn;
+		'''
+		void push_Stack(unsigned long ulValue) '''
+			TESSY_EVAL_U32("push_Stack():ulValue", ulValue, ==, TS_push_Stack_ulValue);
+		'''
+	}
+
+	$testcase 1 {
+		$name "333 - 222 = 111"
+		$uuid "493d79d8-c1f2-4874-a13a-266bf0366dd3"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "6485648a-3818-4e58-8920-a30796b761f3"
+			$prolog '''
+				/* Input values */
+				/* pop_Stack() */
+				TS_pop_Stack_return[0] = 333;
+				TS_pop_Stack_return[1] = 222;
+				
+				/* Output values  */
+				/* push_Stack() */
+				TS_push_Stack_ulValue = 111;
+			'''
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "42 - 27 = 15"
+		$uuid "70141bca-a004-4f3a-8bb8-19ecfe21dd44"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "d32b3775-3827-40da-9f01-77d6dafd4f31"
+			$prolog '''
+				/* Input values */
+				/* pop_Stack() */
+				TS_pop_Stack_return[0] = 42;
+				TS_pop_Stack_return[1] = 27;
+				
+				/* Output values  */
+				/* push_Stack() */
+				TS_push_Stack_ulValue = 15;
+			'''
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "861231 - 651023 = 210208"
+		$uuid "f7728448-c5d9-4394-844b-487e043c8edd"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "f777794c-2528-45d0-bdb3-415d3f6344bc"
+			$prolog '''
+				/* Input values */
+				/* pop_Stack() */
+				TS_pop_Stack_return[0] = 861231;
+				TS_pop_Stack_return[1] = 651023;
+				
+				/* Output values  */
+				/* push_Stack() */
+				TS_push_Stack_ulValue = 210208;
+			'''
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

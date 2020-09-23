@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="metrics.enableTotalCyclomaticComplexity">true</entry>
+    <entry key="metrics.showTotalCyclomaticComplexity">true</entry>
+    <entry key="metrics.enableAverageCyclomaticComplexity">false</entry>
+    <entry key="metrics.showAverageCyclomaticComplexity">false</entry>
+    <entry key="metrics.enableMaximumCyclomaticComplexity">false</entry>
+    <entry key="metrics.showMaximumCyclomaticComplexity">false</entry>
+    <entry key="metrics.enableResultSignificance">true</entry>
+    <entry key="metrics.showResultSignificance">true</entry>
+    <entry key="metrics.applyResultSignificanceToTestResult">false</entry>
+    <entry key="metrics.enableTestCaseToComplexityRatio">true</entry>
+    <entry key="metrics.showTestCaseToComplexityRatio">true</entry>
+    <entry key="metrics.applyTestCaseToComplexityRatioToTestResult">false</entry>
+    <entry key="metrics.enableTestStepToComplexityRatio"/>
+    <entry key="metrics.showTestStepToComplexityRatio"/>
+    <entry key="metrics.applyTestStepToComplexityRatioToTestResult"/>
+    <entry key="metrics.enableBranchCoverageTotal">true</entry>
+    <entry key="metrics.showBranchCoverageTotal">false</entry>
+    <entry key="metrics.enableCallPairCoverageTotal">true</entry>
+    <entry key="metrics.showCallPairCoverageTotal">false</entry>
+    <entry key="metrics.enableDecisionCoverageTotal">true</entry>
+    <entry key="metrics.showDecisionCoverageTotal">false</entry>
+    <entry key="metrics.enableEntryPointCoverageTotal">true</entry>
+    <entry key="metrics.showEntryPointCoverageTotal">false</entry>
+    <entry key="metrics.enableFunctionCoverageTotal">true</entry>
+    <entry key="metrics.showFunctionCoverageTotal">false</entry>
+    <entry key="metrics.enableMccCoverageTotal">true</entry>
+    <entry key="metrics.showMccCoverageTotal">false</entry>
+    <entry key="metrics.enableMcdcCoverageTotal">true</entry>
+    <entry key="metrics.showMcdcCoverageTotal">false</entry>
+    <entry key="metrics.enableStatementCoverageTotal">true</entry>
+    <entry key="metrics.showStatementCoverageTotal">false</entry>
+    <entry key="metrics.enableStatementCount"/>
+    <entry key="metrics.showStatementCount"/>
+    <entry key="metrics.enableCallCount"/>
+    <entry key="metrics.showCallCount"/>
+    <entry key="metrics.enableMaxDepth"/>
+    <entry key="metrics.showMaxDepth"/>
+    <entry key="metrics.enableEstimatedTime"/>
+    <entry key="metrics.showEstimatedTime"/>
+    <entry key="metrics.enableActualTime"/>
+    <entry key="metrics.showActualTime"/>
+    <entry key="metrics.highlightValues">true</entry>
+    <entry key="metrics.minimumTestCaseToComplexityRatio">1.0</entry>
+    <entry key="metrics.minimumTestStepToComplexityRatio">1.0</entry>
+    <entry key="metrics.mediumCyclomaticComplexityThreshold">10</entry>
+    <entry key="metrics.highCyclomaticComplexityThreshold">20</entry>
+    <entry key="metrics.mediumActualToEstimatedTimeThreshold">1.0</entry>
+    <entry key="metrics.highActualToEstimatedTimeThreshold">2.0</entry>
+</properties>

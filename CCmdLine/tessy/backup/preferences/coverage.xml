@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<coverage default="ISO 26262-6 - ASIL D" useForAllModules="true">
+<coverage default="ISO 26262 - ASIL D" useForAllModules="true">
     <selection coverageTypes="MCDC" name="DO-178B - Level A (catastrophic)" testType="UNIT" userDefined="false"/>
     <selection coverageTypes="DECISION" name="DO-178B - Level B (hazardous/severe-major)" testType="UNIT" userDefined="false"/>
     <selection coverageTypes="STATEMENT" name="DO-178B - Level C (major)" testType="UNIT" userDefined="false"/>

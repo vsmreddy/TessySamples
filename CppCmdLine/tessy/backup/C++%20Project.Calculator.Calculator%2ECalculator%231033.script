@@ -1,0 +1,20 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "2792fcc4-3040-46e6-a02c-69032c64090e"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "b2749a5a-7113-4bda-a980-76717b5b6b22"
+			$outputs {
+				this.Calculator {
+					Value = 0
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

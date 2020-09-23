@@ -1,0 +1,314 @@
+$testobject {
+	$comment """
+		Excel formulars are used to calculate the expected values
+	"""
+
+	$testcase 1 {
+		$name "Excel is used to calculate the result"
+		$uuid "5ed8e833-94fb-46c6-8f34-85ac0b6af7ca"
+		$comment """
+			first comment
+		"""
+
+		$teststep 1.1 {
+			$name "Test Step Name"
+			$uuid "d5aadc6b-736b-418a-b529-907aa41a3f9c"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = 6
+				&target_cRecords[1] = 2
+				&target_cRecords[2] = 3
+				&target_cRecords[3] = 4
+				&target_cRecords[4] = 5
+				&target_cRecords[5] = 6
+				&target_cRecords[6] = 7
+				&target_cRecords[7] = 8
+				&target_cRecords[8] = 9
+				&target_cRecords[9] = 10
+			}
+			$outputs {
+				return 6
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "8aea1e0a-8f55-42f3-86ce-a06712d05835"
+		$comment """
+			some comment
+		"""
+
+		$teststep 2.1 {
+			$name "Second Tesat Step Name"
+			$uuid "37582c81-57a0-44ef-8d39-d96414fec3fe"
+			$specification """
+				a specification
+			"""
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = -86
+				&target_cRecords[1] = 28
+				&target_cRecords[2] = -20
+				&target_cRecords[3] = 42
+				&target_cRecords[4] = -65
+				&target_cRecords[5] = 8
+				&target_cRecords[6] = 41
+				&target_cRecords[7] = 56
+				&target_cRecords[8] = -74
+				&target_cRecords[9] = -14
+			}
+			$outputs {
+				return -8
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name ""
+		$uuid "e6ef34c4-473d-457f-b890-a13c6623e68d"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "98631bb7-e591-45cb-a3b6-60d4a4f28348"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = -90
+				&target_cRecords[1] = 88
+				&target_cRecords[2] = 44
+				&target_cRecords[3] = -50
+				&target_cRecords[4] = 71
+				&target_cRecords[5] = -90
+				&target_cRecords[6] = 12
+				&target_cRecords[7] = 50
+				&target_cRecords[8] = -29
+				&target_cRecords[9] = 67
+			}
+			$outputs {
+				return 7
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 4 {
+		$name ""
+		$uuid "9273a7af-663c-4e11-bcc9-b3bc62123c72"
+
+		$teststep 4.1 {
+			$name ""
+			$uuid "07ecf553-7583-4c6a-acf0-d677ace5fa0e"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = 114
+				&target_cRecords[1] = -28
+				&target_cRecords[2] = -32
+				&target_cRecords[3] = 27
+				&target_cRecords[4] = -63
+				&target_cRecords[5] = -34
+				&target_cRecords[6] = -36
+				&target_cRecords[7] = -120
+				&target_cRecords[8] = 98
+				&target_cRecords[9] = -78
+			}
+			$outputs {
+				return -15
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 5 {
+		$name ""
+		$uuid "ae27b72b-db9a-47d3-b6c1-faecc47b2cc4"
+
+		$teststep 5.1 {
+			$name ""
+			$uuid "810db7f1-af8c-4a32-823e-ed55ead68485"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = 105
+				&target_cRecords[1] = 72
+				&target_cRecords[2] = 32
+				&target_cRecords[3] = 46
+				&target_cRecords[4] = -119
+				&target_cRecords[5] = -79
+				&target_cRecords[6] = 78
+				&target_cRecords[7] = -13
+				&target_cRecords[8] = -12
+				&target_cRecords[9] = 70
+			}
+			$outputs {
+				return 18
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 6 {
+		$name ""
+		$uuid "54ff72ca-a9d6-4bdb-8e23-d0a83da72dfb"
+
+		$teststep 6.1 {
+			$name ""
+			$uuid "7352a9ec-0e16-4fa6-a970-bec9a0f6e515"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = 112
+				&target_cRecords[1] = 91
+				&target_cRecords[2] = 78
+				&target_cRecords[3] = -45
+				&target_cRecords[4] = 121
+				&target_cRecords[5] = 84
+				&target_cRecords[6] = -102
+				&target_cRecords[7] = 92
+				&target_cRecords[8] = 66
+				&target_cRecords[9] = -100
+			}
+			$outputs {
+				return 39
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 7 {
+		$name ""
+		$uuid "5fc5d1f0-eff2-49a6-bb36-982b9ae04d01"
+
+		$teststep 7.1 {
+			$name ""
+			$uuid "3af01ed9-6665-4cdb-b652-0ae6e25f7ce9"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = 118
+				&target_cRecords[1] = 93
+				&target_cRecords[2] = 44
+				&target_cRecords[3] = -61
+				&target_cRecords[4] = 3
+				&target_cRecords[5] = -111
+				&target_cRecords[6] = -93
+				&target_cRecords[7] = 90
+				&target_cRecords[8] = 91
+				&target_cRecords[9] = 15
+			}
+			$outputs {
+				return 18
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 8 {
+		$name ""
+		$uuid "5aba23b3-497f-4d63-a4ff-25b76508ce8e"
+
+		$teststep 8.1 {
+			$name ""
+			$uuid "35bfe1aa-80b8-48a2-9856-bd624b6c9d3e"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = -28
+				&target_cRecords[1] = 22
+				&target_cRecords[2] = -31
+				&target_cRecords[3] = 44
+				&target_cRecords[4] = 8
+				&target_cRecords[5] = -11
+				&target_cRecords[6] = -101
+				&target_cRecords[7] = -116
+				&target_cRecords[8] = -60
+				&target_cRecords[9] = -104
+			}
+			$outputs {
+				return -37
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 9 {
+		$name ""
+		$uuid "81adb703-e7bb-464b-8f0c-52276b8de40d"
+
+		$teststep 9.1 {
+			$name ""
+			$uuid "02cfdd35-b456-4bd5-b139-0a8dd9a76bb3"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = 102
+				&target_cRecords[1] = -70
+				&target_cRecords[2] = -111
+				&target_cRecords[3] = 50
+				&target_cRecords[4] = 88
+				&target_cRecords[5] = -62
+				&target_cRecords[6] = 21
+				&target_cRecords[7] = 118
+				&target_cRecords[8] = 97
+				&target_cRecords[9] = 106
+			}
+			$outputs {
+				return 33
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 10 {
+		$name ""
+		$uuid "93acb752-d8d1-43c9-9732-850276ae3871"
+
+		$teststep 10.1 {
+			$name ""
+			$uuid "af4d6ef2-7187-4b63-b0fb-8b5541d6e2c5"
+			$inputs {
+				cRecords = target_cRecords
+				ucLength = 10
+				&target_cRecords[0] = -109
+				&target_cRecords[1] = -53
+				&target_cRecords[2] = 79
+				&target_cRecords[3] = 92
+				&target_cRecords[4] = -112
+				&target_cRecords[5] = -108
+				&target_cRecords[6] = -117
+				&target_cRecords[7] = 98
+				&target_cRecords[8] = 48
+				&target_cRecords[9] = -20
+			}
+			$outputs {
+				return -20
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

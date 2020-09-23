@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="execution.rememberInstrumentation">lastExecution</entry>
+    <entry key="execution.rememberCreateTestRun">false</entry>
+    <entry key="execution.rememberRetryAbortedExecution">false</entry>
+    <entry key="execution.rememberDefineBreakpoint">false</entry>
+    <entry key="execution.enableParallelExecution">true</entry>
+    <entry key="execution.checkSourceBeforeExecute">true</entry>
+    <entry key="execution.abortOnMissingStubCode">true</entry>
+    <entry key="execution.includeNoneValuesInResultFiles">true</entry>
+    <entry key="execution.clearConsoleBeforeExecute">true</entry>
+    <entry key="execution.clearProblemsViewBeforeExecute">false</entry>
+    <entry key="execution.showConsoleOnError">true</entry>
+    <entry key="execution.maxTestRunsPerTestObject">5</entry>
+    <entry key="preferences.execution.preAnalyzeScript"/>
+    <entry key="preferences.execution.preExecuteScript"/>
+    <entry key="preferences.execution.postExecuteScript"/>
+</properties>

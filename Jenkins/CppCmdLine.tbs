@@ -17,11 +17,11 @@
                 <option key="postExecuteScript" value=""/>
             </options>
             <coverageTypes>
-                <coverageType name="BRANCH"/>
-                <coverageType name="MCDC"/>
-                <coverageType name="DECISION"/>
-                <coverageType name="STATEMENT"/>
                 <coverageType name="MCC"/>
+                <coverageType name="MCDC"/>
+                <coverageType name="BRANCH"/>
+                <coverageType name="STATEMENT"/>
+                <coverageType name="DECISION"/>
             </coverageTypes>
         </operation>
         <operation key="generateBatchReport">
@@ -77,7 +77,7 @@
         </operation>
     </operations>
     <elements>
-        <testcollection name="CppCmdLine"/>
+        <testcollection name="C++ Project"/>
     </elements>
     <settings>
         <setting key="reportLogoImage" value=""/>

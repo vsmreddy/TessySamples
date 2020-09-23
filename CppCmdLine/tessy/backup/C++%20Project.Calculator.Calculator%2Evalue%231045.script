@@ -1,0 +1,49 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "a87454c4-866b-4ae5-9a6b-0449c6229116"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "c3a516c7-5948-4395-9a59-a46c1e464613"
+			$inputs {
+				this = Calculator ()
+				this.Calculator {
+					Value = 13
+				}
+			}
+			$outputs {
+				return 13
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "376919d4-8a1b-47d8-95d6-0a06edcff413"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "12231672-e88f-428e-b2c9-5002065bc008"
+			$inputs {
+				this = Calculator (int value)
+				this.Calculator (int value) {
+					value = 14
+				}
+				this.Calculator {
+					Value = *none*
+				}
+			}
+			$outputs {
+				return 14
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

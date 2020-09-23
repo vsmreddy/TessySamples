@@ -1,0 +1,73 @@
+$testobject {
+	$comment """
+		Usage of Advanced Stub Functions with more than one call of a (stub) function.
+	"""
+	$declarations '''
+		/* Module specific Declarations */
+	'''
+	$definitions '''
+		/* Module specific Definitions */
+	'''
+	$stubfunctions {
+		void print_f(char * pChar) '''
+			/* Module specific Stub Function */
+		'''
+	}
+
+	$testcase 1 {
+		$name "5 * 6 = 30"
+		$uuid "0dd3a3d5-e0f8-4c2d-9a08-9f092c230323"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "305efc86-4ceb-42fb-ab5e-940401b496c9"
+			$inputs {
+				pop_Stack() = {5, 6}
+			}
+			$outputs {
+				push_Stack(ulValue) = 30
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "15 * 823 = 12345"
+		$uuid "abeb1302-6511-49bb-9136-cc187cd91d58"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "466af8b1-a1b3-46a6-94ee-173c329e27cd"
+			$inputs {
+				pop_Stack() = {15, 823}
+			}
+			$outputs {
+				push_Stack(ulValue) = 12345
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "NULL on stack"
+		$uuid "aba85307-35b8-4bc8-87f1-0c037d949d65"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "3257fb43-9349-45e7-8ada-a02fe926153e"
+			$inputs {
+				pop_Stack() = {1, 0}
+			}
+			$outputs {
+				push_Stack(ulValue) = 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

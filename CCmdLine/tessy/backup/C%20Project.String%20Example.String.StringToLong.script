@@ -1,0 +1,54 @@
+$testobject {
+
+	$testcase 1 {
+		$name "Positive number"
+		$uuid "cf260b0b-910c-4896-b968-6b56348beb0f"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "bdf809f9-b75d-4fe3-9596-9c990c8c3ce7"
+			$inputs {
+				pCharBuf = target_pCharBuf
+				ulLen = 5
+				&target_pCharBuf[0] = 0x31
+				&target_pCharBuf[1] = 0x32
+				&target_pCharBuf[2] = 0x33
+				&target_pCharBuf[3] = 0x34
+				&target_pCharBuf[4] = 0x35
+				&target_pCharBuf[5] = 0
+			}
+			$outputs {
+				return 12345
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Negative number"
+		$uuid "90dce350-bb49-49dd-a072-ebebce5d9d53"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "36d71343-62df-4688-8b6e-658b87e40658"
+			$inputs {
+				pCharBuf = target_pCharBuf
+				ulLen = 5
+				&target_pCharBuf[0] = 0x2D
+				&target_pCharBuf[1] = 0x31
+				&target_pCharBuf[2] = 0x32
+				&target_pCharBuf[3] = 0x33
+				&target_pCharBuf[4] = 0x34
+				&target_pCharBuf[5] = 0
+			}
+			$outputs {
+				return -1234
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

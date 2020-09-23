@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <preferences>
-    <preference key="coverage.useDefaultForAllModules" value="false"/>
+    <preference key="coverage.useDefaultForAllModules" value="true"/>
     <preference key="ctex.enum.maxNumber" value="10"/>
     <preference key="ctex.generate.tree" value="true"/>
     <preference key="ctex.globals.show.variables.synthetic" value="true"/>
@@ -41,7 +41,7 @@
     <preference key="metrics.showStatementCoverageTotal" value="false"/>
     <preference key="metrics.showTestCaseToComplexityRatio" value="true"/>
     <preference key="metrics.showTotalCyclomaticComplexity" value="true"/>
-    <preference key="preferences.execution.batchDirectory" value="C:\TESSY_Seminar\Exercises\CppCmdLine\automation"/>
+    <preference key="preferences.execution.batchDirectory" value="C:\TESSY_Seminar\TessySamples\Jenkins"/>
     <preference key="preferences.execution.batchReportDirectory" value="$(PROJECTROOT)\report"/>
     <preference key="preferences.execution.batchReportFileName" value="TESSY_OverviewReport_$(DATETIME)"/>
     <preference key="preferences.execution.createNewTestRun" value="false"/>

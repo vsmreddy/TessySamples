@@ -1,0 +1,875 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "b9c2a9ed-dc41-4fe6-86f6-bf2fce627911"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "d2275549-8fe3-46e7-afc9-37e22ec7c019"
+			$inputs {
+				radian_value = 10
+			}
+			$outputs {
+				sine_value = 9
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.2 {
+			$name ""
+			$uuid "7617afcf-cf39-4df7-83b0-9acefebd8c5a"
+			$inputs {
+				radian_value = 20
+			}
+			$outputs {
+				sine_value = 19
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.3 {
+			$name ""
+			$uuid "f8afe765-435f-4290-aa8c-cec37d8bf173"
+			$inputs {
+				radian_value = 30
+			}
+			$outputs {
+				sine_value = 29
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.4 {
+			$name ""
+			$uuid "5640c475-efa7-456c-8d68-74070cb13d4d"
+			$inputs {
+				radian_value = 40
+			}
+			$outputs {
+				sine_value = 38
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.5 {
+			$name ""
+			$uuid "b0fb7bd0-cbee-42ee-9b55-00d4459cadaf"
+			$inputs {
+				radian_value = 50
+			}
+			$outputs {
+				sine_value = 47
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.6 {
+			$name ""
+			$uuid "74b97459-eea9-4fb2-8dae-66aac3dde0be"
+			$inputs {
+				radian_value = 60
+			}
+			$outputs {
+				sine_value = 56
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.7 {
+			$name ""
+			$uuid "b31899d0-2d5c-4d3c-a5f6-db6d5c8ce8d6"
+			$inputs {
+				radian_value = 70
+			}
+			$outputs {
+				sine_value = 64
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.8 {
+			$name ""
+			$uuid "31c02872-51e1-4341-934b-5cae8aaa57b7"
+			$inputs {
+				radian_value = 80
+			}
+			$outputs {
+				sine_value = 71
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.9 {
+			$name ""
+			$uuid "8deced85-8c10-4586-bd7b-d544517e591c"
+			$inputs {
+				radian_value = 90
+			}
+			$outputs {
+				sine_value = 78
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.10 {
+			$name ""
+			$uuid "0e2c5808-a289-4fad-b9a1-5e67b4ccb178"
+			$inputs {
+				radian_value = 100
+			}
+			$outputs {
+				sine_value = 84
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.11 {
+			$name ""
+			$uuid "2079fdcc-f679-478e-bb49-dd88ca024228"
+			$inputs {
+				radian_value = 110
+			}
+			$outputs {
+				sine_value = 89
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.12 {
+			$name ""
+			$uuid "2d1e4a89-d1b4-40c0-8457-ec44199d6be3"
+			$inputs {
+				radian_value = 120
+			}
+			$outputs {
+				sine_value = 93
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.13 {
+			$name ""
+			$uuid "66a61faf-521d-473d-b035-5eeaef97bf7f"
+			$inputs {
+				radian_value = 130
+			}
+			$outputs {
+				sine_value = 96
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.14 {
+			$name ""
+			$uuid "21aff2d8-14c5-4e24-8319-bc018b13798f"
+			$inputs {
+				radian_value = 140
+			}
+			$outputs {
+				sine_value = 98
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.15 {
+			$name ""
+			$uuid "992bcac3-bb12-4f5f-a151-570ec565ce20"
+			$inputs {
+				radian_value = 150
+			}
+			$outputs {
+				sine_value = 99
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.16 {
+			$name ""
+			$uuid "62a96aef-1e26-4d3a-9517-7154004a508f"
+			$inputs {
+				radian_value = 160
+			}
+			$outputs {
+				sine_value = 99
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.17 {
+			$name ""
+			$uuid "e91960dd-9256-48c8-9a91-396c09e7f7ac"
+			$inputs {
+				radian_value = 170
+			}
+			$outputs {
+				sine_value = 99
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.18 {
+			$name ""
+			$uuid "b7668212-841c-41e6-8374-eb81dab76c8a"
+			$inputs {
+				radian_value = 180
+			}
+			$outputs {
+				sine_value = 97
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.19 {
+			$name ""
+			$uuid "aefd8d18-0db7-4380-80ce-0d4f91c374a2"
+			$inputs {
+				radian_value = 190
+			}
+			$outputs {
+				sine_value = 94
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.20 {
+			$name ""
+			$uuid "32137468-4cc0-4846-9365-0a3da93cac44"
+			$inputs {
+				radian_value = 200
+			}
+			$outputs {
+				sine_value = 90
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.21 {
+			$name ""
+			$uuid "b3261a8d-5ae5-456f-b039-0ec2ba736353"
+			$inputs {
+				radian_value = 210
+			}
+			$outputs {
+				sine_value = 86
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.22 {
+			$name ""
+			$uuid "2e7a8c45-76f4-41aa-b750-01f5174333f6"
+			$inputs {
+				radian_value = 220
+			}
+			$outputs {
+				sine_value = 80
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.23 {
+			$name ""
+			$uuid "ae63b06d-d27d-466d-9868-3a61f24eb581"
+			$inputs {
+				radian_value = 230
+			}
+			$outputs {
+				sine_value = 74
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.24 {
+			$name ""
+			$uuid "a2d954b8-c229-4161-8af7-e0fffc946c33"
+			$inputs {
+				radian_value = 240
+			}
+			$outputs {
+				sine_value = 66
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.25 {
+			$name ""
+			$uuid "984d7ee0-7456-430b-9a31-4baaf2d6d186"
+			$inputs {
+				radian_value = 250
+			}
+			$outputs {
+				sine_value = 58
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.26 {
+			$name ""
+			$uuid "6dd72b25-c387-453a-a3a1-52605ab5ecaa"
+			$inputs {
+				radian_value = 260
+			}
+			$outputs {
+				sine_value = 50
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.27 {
+			$name ""
+			$uuid "0273d083-0519-4d94-a4b5-893dab7f7942"
+			$inputs {
+				radian_value = 270
+			}
+			$outputs {
+				sine_value = 40
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.28 {
+			$name ""
+			$uuid "6e83a285-0fef-44e1-a243-04fedc3d6a73"
+			$inputs {
+				radian_value = 280
+			}
+			$outputs {
+				sine_value = 30
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.29 {
+			$name ""
+			$uuid "0a6c5144-62fc-4f37-8b08-c6ee33736393"
+			$inputs {
+				radian_value = 290
+			}
+			$outputs {
+				sine_value = 20
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.30 {
+			$name ""
+			$uuid "d92ecad6-c1af-4b71-93ae-06cddd49535b"
+			$inputs {
+				radian_value = 300
+			}
+			$outputs {
+				sine_value = 9
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.31 {
+			$name ""
+			$uuid "c850caea-5950-473d-9726-1a0ba5760913"
+			$inputs {
+				radian_value = 310
+			}
+			$outputs {
+				sine_value = -2
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.32 {
+			$name ""
+			$uuid "fb897cb6-2c86-4d87-98b9-b98fdeafe5d3"
+			$inputs {
+				radian_value = 320
+			}
+			$outputs {
+				sine_value = -5
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.33 {
+			$name ""
+			$uuid "3d337180-b353-4a2f-89e1-0d135aa799c1"
+			$inputs {
+				radian_value = 330
+			}
+			$outputs {
+				sine_value = -15
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.34 {
+			$name ""
+			$uuid "ae818a11-71b5-41be-80fa-3e1fb05c21e7"
+			$inputs {
+				radian_value = 340
+			}
+			$outputs {
+				sine_value = -25
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.35 {
+			$name ""
+			$uuid "2110772c-ecca-4181-9b4f-3e42295f902e"
+			$inputs {
+				radian_value = 350
+			}
+			$outputs {
+				sine_value = -35
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.36 {
+			$name ""
+			$uuid "69a9f0fd-f49e-4433-b48c-f8ed384a3d12"
+			$inputs {
+				radian_value = 360
+			}
+			$outputs {
+				sine_value = -44
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.37 {
+			$name ""
+			$uuid "8182acc2-a24a-49ef-a6bb-f18e3f9b119a"
+			$inputs {
+				radian_value = 370
+			}
+			$outputs {
+				sine_value = -52
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.38 {
+			$name ""
+			$uuid "b0c8f79f-6f92-4737-9e85-d717949a893a"
+			$inputs {
+				radian_value = 380
+			}
+			$outputs {
+				sine_value = -61
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.39 {
+			$name ""
+			$uuid "27adaa84-1a88-42e5-b369-9745a7321e67"
+			$inputs {
+				radian_value = 390
+			}
+			$outputs {
+				sine_value = -68
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.40 {
+			$name ""
+			$uuid "7bea3005-6333-478d-95d9-3f02c513c921"
+			$inputs {
+				radian_value = 400
+			}
+			$outputs {
+				sine_value = -75
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.41 {
+			$name ""
+			$uuid "64e6ed03-6a8f-46f6-acea-255d4da822c2"
+			$inputs {
+				radian_value = 410
+			}
+			$outputs {
+				sine_value = -81
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.42 {
+			$name ""
+			$uuid "d1085876-1b9b-4209-9030-802711522f88"
+			$inputs {
+				radian_value = 420
+			}
+			$outputs {
+				sine_value = -87
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.43 {
+			$name ""
+			$uuid "1ff84fd2-b007-4cd3-b9d8-e0e7c50c46b8"
+			$inputs {
+				radian_value = 430
+			}
+			$outputs {
+				sine_value = -91
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.44 {
+			$name ""
+			$uuid "7873c9e2-9e63-4a6d-8441-8335e182d2f8"
+			$inputs {
+				radian_value = 440
+			}
+			$outputs {
+				sine_value = -95
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.45 {
+			$name ""
+			$uuid "6127ade1-6e75-456e-b092-eb0cca3b545c"
+			$inputs {
+				radian_value = 450
+			}
+			$outputs {
+				sine_value = -97
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.46 {
+			$name ""
+			$uuid "2f3bd4c9-d277-48fe-9870-eedc7acd8a1b"
+			$inputs {
+				radian_value = 460
+			}
+			$outputs {
+				sine_value = -99
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.47 {
+			$name ""
+			$uuid "8af16220-8a57-4636-9007-2a85ee379baf"
+			$inputs {
+				radian_value = 470
+			}
+			$outputs {
+				sine_value = -99
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.48 {
+			$name ""
+			$uuid "56a4f312-c069-4574-9888-cc49f211b465"
+			$inputs {
+				radian_value = 480
+			}
+			$outputs {
+				sine_value = -99
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.49 {
+			$name ""
+			$uuid "9616e867-dc17-4343-a110-c7bb70ea9ddf"
+			$inputs {
+				radian_value = 490
+			}
+			$outputs {
+				sine_value = -98
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.50 {
+			$name ""
+			$uuid "8d261dc8-ebcb-45fb-9fb2-6537e89c7eda"
+			$inputs {
+				radian_value = 500
+			}
+			$outputs {
+				sine_value = -95
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.51 {
+			$name ""
+			$uuid "df859a87-880f-48b7-bf38-18bfbc806729"
+			$inputs {
+				radian_value = 510
+			}
+			$outputs {
+				sine_value = -92
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.52 {
+			$name ""
+			$uuid "73004fd4-212c-44ff-b2ea-cdc033048464"
+			$inputs {
+				radian_value = 520
+			}
+			$outputs {
+				sine_value = -88
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.53 {
+			$name ""
+			$uuid "143c80a7-8058-42db-aa44-723ac8b04b1c"
+			$inputs {
+				radian_value = 530
+			}
+			$outputs {
+				sine_value = -82
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.54 {
+			$name ""
+			$uuid "eca18b0e-8f60-4834-ba38-18227104ba46"
+			$inputs {
+				radian_value = 540
+			}
+			$outputs {
+				sine_value = -76
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.55 {
+			$name ""
+			$uuid "e979679e-fb5e-479e-ac37-c51000aaa868"
+			$inputs {
+				radian_value = 550
+			}
+			$outputs {
+				sine_value = -69
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.56 {
+			$name ""
+			$uuid "ca216cb7-08ad-45bc-934e-1cb502e78676"
+			$inputs {
+				radian_value = 560
+			}
+			$outputs {
+				sine_value = -62
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.57 {
+			$name ""
+			$uuid "b34b9c22-418f-4d20-81cb-99a4cc2b989b"
+			$inputs {
+				radian_value = 570
+			}
+			$outputs {
+				sine_value = -53
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.58 {
+			$name ""
+			$uuid "3e8529a0-6ffe-42e8-9aeb-99fe10dfb690"
+			$inputs {
+				radian_value = 580
+			}
+			$outputs {
+				sine_value = -44
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.59 {
+			$name ""
+			$uuid "7fc1ed1c-3cd9-4f17-a741-0b386158575c"
+			$inputs {
+				radian_value = 590
+			}
+			$outputs {
+				sine_value = -35
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.60 {
+			$name ""
+			$uuid "deb52b45-02ff-443d-8070-f0dc40f1b9c3"
+			$inputs {
+				radian_value = 600
+			}
+			$outputs {
+				sine_value = -24
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.61 {
+			$name ""
+			$uuid "ecff254f-a9d0-438c-a921-e099b2329e3d"
+			$inputs {
+				radian_value = 610
+			}
+			$outputs {
+				sine_value = -13
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.62 {
+			$name ""
+			$uuid "d88360e9-7d60-4065-9a45-70894e75c50e"
+			$inputs {
+				radian_value = 620
+			}
+			$outputs {
+				sine_value = -2
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

@@ -1,0 +1,299 @@
+$testobject {
+	$comment """
+		Usage of Repeate Counters and the Call Trace
+	"""
+	$declarations '''
+		/* Module specific Declarations */
+	'''
+	$definitions '''
+		/* Module specific Definitions */
+	'''
+	$stubfunctions {
+		void print_f(char * pChar) '''
+			/* Module specific Stub Function */
+		'''
+	}
+
+	$testcase 1 {
+		$name "Sum of 2 variables"
+		$uuid "054dd62c-5219-4b69-8ef3-a74337faee91"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "87f05ce8-c5f9-42ca-9e46-8f01ae6cc16d"
+			$inputs {
+				eStackState = RUNNING
+				ulStack[0] = 11
+				ulStack[1] = 22
+				ulStack[2] = *none*
+				ulStack[3] = *none*
+				ulStack[4] = *none*
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = 2
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulStack[0] = 33
+				ulStack[1] = 22
+				ulStack[2] = *none*
+				ulStack[3] = *none*
+				ulStack[4] = *none*
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = 1
+			}
+			$calltrace {
+				pop_Stack * 2
+				push_Stack
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Sum of 5 values using Repeat Count"
+		$uuid "6c9dd210-2f29-414f-9830-8357b4594304"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "bcb639e9-d246-41dd-891b-e951fe4b69c2"
+			$repeatcount 4
+			$inputs {
+				eStackState = RUNNING
+				ulStack[0] = 11
+				ulStack[1] = 22
+				ulStack[2] = 33
+				ulStack[3] = 44
+				ulStack[4] = 55
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = 5
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulStack[0] = 165
+				ulStack[1] = 154
+				ulStack[2] = 132
+				ulStack[3] = 99
+				ulStack[4] = 55
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = 1
+			}
+			$calltrace {
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "Sum of 5 values using TESSY variable TS_REPEAT_COUNT"
+		$uuid "370e0382-5e38-4f90-8d18-c671ba5bdc93"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "90112f53-dbc1-4a34-b698-14ee0f3897c0"
+			$prolog '''
+				TS_REPEAT_COUNT = 4;
+			'''
+			$inputs {
+				eStackState = RUNNING
+				ulStack[0] = 11
+				ulStack[1] = 22
+				ulStack[2] = 33
+				ulStack[3] = 44
+				ulStack[4] = 55
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = 5
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulStack[0] = 165
+				ulStack[1] = 154
+				ulStack[2] = 132
+				ulStack[3] = 99
+				ulStack[4] = 55
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = 1
+			}
+			$calltrace {
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+			}
+		}
+	}
+
+	$testcase 4 {
+		$name "Sum of 7 values, using Repeat Count and TS_REPEAT_COUNT"
+		$uuid "5668bce0-5874-4c60-8e83-2431aa69677e"
+
+		$teststep 4.1 {
+			$name ""
+			$uuid "d20e43f0-827b-4f93-8ba5-552052b1b551"
+			$repeatcount 3
+			$prolog '''
+				TS_REPEAT_COUNT = 2;
+				/* TESSY_EVAL_U32("Stack Counter:", uiStackCounter, ==, 5); */
+			'''
+			$inputs {
+				eStackState = RUNNING
+				ulStack[0] = 11
+				ulStack[1] = 22
+				ulStack[2] = 33
+				ulStack[3] = 44
+				ulStack[4] = 55
+				ulStack[5] = 66
+				ulStack[6] = 77
+				ulStackCounter = 7
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulStack[0] = 308
+				ulStack[1] = 297
+				ulStack[2] = 275
+				ulStack[3] = 242
+				ulStack[4] = 198
+				ulStack[5] = 143
+				ulStack[6] = 77
+				ulStackCounter = 1
+			}
+			$calltrace {
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+			}
+		}
+	}
+
+	$testcase 5 {
+		$name "Sum of 7 values, using Test Steps and both kinds of counters"
+		$uuid "8eb4537c-9613-4dbb-a3e2-654cccd47833"
+
+		$teststep 5.1 {
+			$name "No counter"
+			$uuid "3c501907-ac53-489b-b9be-1381056198a6"
+			$inputs {
+				eStackState = RUNNING
+				ulStack[0] = 11
+				ulStack[1] = 22
+				ulStack[2] = 33
+				ulStack[3] = 44
+				ulStack[4] = 55
+				ulStack[5] = 66
+				ulStack[6] = 77
+				ulStackCounter = 7
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulStack[0] = 11
+				ulStack[1] = 22
+				ulStack[2] = 33
+				ulStack[3] = 44
+				ulStack[4] = 55
+				ulStack[5] = 143
+				ulStack[6] = 77
+				ulStackCounter = 6
+			}
+			$calltrace {
+				pop_Stack * 2
+				push_Stack
+			}
+		}
+
+		$teststep 5.2 {
+			$name "Repeat Count"
+			$uuid "8cc25d45-e998-4f7c-91d4-441b4aa3150d"
+			$repeatcount 2
+			$inputs {
+				eStackState = *none*
+				ulStack[0] = *none*
+				ulStack[1] = *none*
+				ulStack[2] = *none*
+				ulStack[3] = *none*
+				ulStack[4] = *none*
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = *none*
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulStack[0] = 11
+				ulStack[1] = 22
+				ulStack[2] = 33
+				ulStack[3] = 242
+				ulStack[4] = 198
+				ulStack[5] = 143
+				ulStack[6] = 77
+				ulStackCounter = 4
+			}
+			$calltrace {
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+			}
+		}
+
+		$teststep 5.3 {
+			$name "TS_REPEAT_COUNT"
+			$uuid "d254c1ea-e572-458b-8b2d-17dee783012f"
+			$prolog '''
+				TS_REPEAT_COUNT = 3;
+			'''
+			$inputs {
+				eStackState = *none*
+				ulStack[0] = *none*
+				ulStack[1] = *none*
+				ulStack[2] = *none*
+				ulStack[3] = *none*
+				ulStack[4] = *none*
+				ulStack[5] = *none*
+				ulStack[6] = *none*
+				ulStackCounter = *none*
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulStack[0] = 308
+				ulStack[1] = 297
+				ulStack[2] = 275
+				ulStack[3] = 242
+				ulStack[4] = 198
+				ulStack[5] = 143
+				ulStack[6] = 77
+				ulStackCounter = 1
+			}
+			$calltrace {
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+				pop_Stack * 2
+				push_Stack
+			}
+		}
+	}
+}

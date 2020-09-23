@@ -1,0 +1,208 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "7fc66f2e-b855-4a14-9dc0-85fff3b03548"
+		$specification """
+			- operation:plus
+			- expected result:correctly
+		"""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "f9c13d3f-7c74-44c7-8d64-7cb70860edfe"
+			$inputs {
+				this = Calculator (int value)
+				this.Calculator (int value) {
+					value = 0
+				}
+				this.Calculator {
+					Value = 100
+				}
+				operation = plus
+				operand = 5
+			}
+			$outputs {
+				throws exception = no
+				this.Calculator {
+					Value = 105
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "9e95da4d-eb19-4f21-9630-91b04d16bad7"
+		$specification """
+			- operation:minus
+			- expected result:correctly
+		"""
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "df2c4cf6-8d3c-4be8-bda1-b78ff9f980ed"
+			$inputs {
+				this = Calculator (int value)
+				this.Calculator (int value) {
+					value = 0
+				}
+				this.Calculator {
+					Value = 100
+				}
+				operation = minus
+				operand = 5
+			}
+			$outputs {
+				throws exception = no
+				this.Calculator {
+					Value = 95
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name ""
+		$uuid "37fcf0dd-a59b-411b-8c2b-87bbbd3aa3bf"
+		$specification """
+			- operation:multiplication
+			- expected result:correctly
+		"""
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "37feb23e-4ac2-4d83-9f89-5c3177b5c082"
+			$inputs {
+				this = Calculator (int value)
+				this.Calculator (int value) {
+					value = 0
+				}
+				this.Calculator {
+					Value = 100
+				}
+				operation = mul
+				operand = 5
+			}
+			$outputs {
+				throws exception = no
+				this.Calculator {
+					Value = 500
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 4 {
+		$name ""
+		$uuid "135c27b8-b1e8-4f08-bbec-a60bbfa22b02"
+		$specification """
+			- operation:division
+			  - operand:zero (invalid)
+			- expected result:exception
+		"""
+
+		$teststep 4.1 {
+			$name ""
+			$uuid "c6cb37ee-916b-4247-a63d-0fad687d392e"
+			$inputs {
+				this = Calculator (int value)
+				this.Calculator (int value) {
+					value = 0
+				}
+				this.Calculator {
+					Value = 100
+				}
+				operation = div
+				operand = 0
+			}
+			$outputs {
+				throws exception = yes
+				this.Calculator {
+					Value = *none*
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 5 {
+		$name ""
+		$uuid "447e677c-db96-4256-ad99-8258d8077e05"
+		$specification """
+			- operation:division
+			  - operand:valid value
+			- expected result:correctly
+		"""
+
+		$teststep 5.1 {
+			$name ""
+			$uuid "42194141-14fb-4fb5-890b-66cab5f48845"
+			$inputs {
+				this = Calculator (int value)
+				this.Calculator (int value) {
+					value = 0
+				}
+				this.Calculator {
+					Value = 100
+				}
+				operation = div
+				operand = 5
+			}
+			$outputs {
+				throws exception = no
+				this.Calculator {
+					Value = 20
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 6 {
+		$name ""
+		$uuid "cdd5917c-5a64-414c-8663-c8dd4083542b"
+		$specification """
+			- operation:undefined
+			- expected result:exception
+		"""
+
+		$teststep 6.1 {
+			$name ""
+			$uuid "07b36f89-4159-405b-a456-b20c44aa3eb1"
+			$inputs {
+				this = Calculator (int value)
+				this.Calculator (int value) {
+					value = 0
+				}
+				this.Calculator {
+					Value = 100
+				}
+				operation = 99
+				operand = 5
+			}
+			$outputs {
+				throws exception = yes
+				this.Calculator {
+					Value = 100
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

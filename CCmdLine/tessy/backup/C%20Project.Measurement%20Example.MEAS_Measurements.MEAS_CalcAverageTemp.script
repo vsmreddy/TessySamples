@@ -1,0 +1,673 @@
+$testobject {
+	$comment """
+		Export and import from and to Excel
+	"""
+
+	$testcase 1 {
+		$name "Excel Import/Export"
+		$uuid "6b3fce56-71f8-4081-a684-bff8a16737b7"
+		$specification """
+			In Excel edited: Specification of Test Case 1
+		"""
+		$description """
+			In Excel edited: Description of Test Case 1
+		"""
+		$comment """
+			In Excel edited: Comment of of Test Case 1
+		"""
+
+		$teststep 1.1 {
+			$name "First Test Step"
+			$uuid "6e5a7af2-966a-4301-9b08-0d600bc1b269"
+			$specification """
+				In Excel edited: Specification of Test Step 1
+			"""
+			$description """
+				In Excel edited: Description of Test Step 1
+			"""
+			$comment """
+				In Excel edited: Comment of of Test Step 1
+			"""
+			$inputs {
+				cTempRecVals[0] = 89
+				cTempRecVals[1] = -32
+				cTempRecVals[2] = -60
+				cTempRecVals[3] = 100
+				cTempRecVals[4] = 71
+				cTempRecVals[5] = 0
+				cTempRecVals[6] = 21
+				cTempRecVals[7] = 1
+				cTempRecVals[8] = 114
+				cTempRecVals[9] = -108
+			}
+			$outputs {
+				return 19
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "In Excel edited: Name of Test Case 2"
+		$uuid "f3f2b77b-36f4-4f86-a25e-b0a9420ca7d6"
+		$specification """
+			In Excel edited: Specification of Test Case 2
+		"""
+		$description """
+			In Excel edited: Description of Test Case 2
+		"""
+		$comment """
+			In Excel edited: Comment of of Test Case 2
+		"""
+
+		$teststep 2.1 {
+			$name "In Excel edited: Name of Test Step 2"
+			$uuid "f095ae09-1dd4-4935-9a8d-8d4249167867"
+			$specification """
+				In Excel edited: Specification of Test Step 2
+			"""
+			$description """
+				In Excel edited: Description of Test Step 2
+			"""
+			$comment """
+				In Excel edited: Comment of of Test Step 2
+			"""
+			$inputs {
+				cTempRecVals[0] = -127
+				cTempRecVals[1] = -86
+				cTempRecVals[2] = 4
+				cTempRecVals[3] = -116
+				cTempRecVals[4] = 2
+				cTempRecVals[5] = -1
+				cTempRecVals[6] = 102
+				cTempRecVals[7] = 47
+				cTempRecVals[8] = -88
+				cTempRecVals[9] = -27
+			}
+			$outputs {
+				return -29
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "In Excel edited: Name of Test Case 3"
+		$uuid "f613e59e-89fb-4611-a2a2-d56627c6ff69"
+		$specification """
+			In Excel edited: Specification of Test Case 3
+		"""
+		$description """
+			In Excel edited: Description of Test Case 3
+		"""
+		$comment """
+			In Excel edited: Comment of of Test Case 3
+		"""
+
+		$teststep 3.1 {
+			$name "In Excel edited: Name of Test Step 3"
+			$uuid "beba0fb0-6f10-48b2-89cd-f8849691efe1"
+			$specification """
+				In Excel edited: Specification of Test Step 3
+			"""
+			$description """
+				In Excel edited: Description of Test Step 3
+			"""
+			$comment """
+				In Excel edited: Comment of of Test Step 3
+			"""
+			$inputs {
+				cTempRecVals[0] = 74
+				cTempRecVals[1] = 41
+				cTempRecVals[2] = -62
+				cTempRecVals[3] = -114
+				cTempRecVals[4] = 33
+				cTempRecVals[5] = 78
+				cTempRecVals[6] = 98
+				cTempRecVals[7] = 6
+				cTempRecVals[8] = 10
+				cTempRecVals[9] = 85
+			}
+			$outputs {
+				return 24
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 4 {
+		$name ""
+		$uuid "d60de3a4-da13-4b75-ac54-c9c840234ef7"
+
+		$teststep 4.1 {
+			$name ""
+			$uuid "0a794eb1-4e11-42b7-94bd-0265b484d916"
+			$inputs {
+				cTempRecVals[0] = 105
+				cTempRecVals[1] = -93
+				cTempRecVals[2] = 10
+				cTempRecVals[3] = 6
+				cTempRecVals[4] = 80
+				cTempRecVals[5] = -97
+				cTempRecVals[6] = -113
+				cTempRecVals[7] = 66
+				cTempRecVals[8] = -82
+				cTempRecVals[9] = -32
+			}
+			$outputs {
+				return -15
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 5 {
+		$name ""
+		$uuid "e3545ec4-b038-417a-87c0-c3bc337f70b8"
+
+		$teststep 5.1 {
+			$name ""
+			$uuid "a0f3eecd-8221-49a0-a041-2750aa94e043"
+			$inputs {
+				cTempRecVals[0] = 105
+				cTempRecVals[1] = -47
+				cTempRecVals[2] = 47
+				cTempRecVals[3] = -70
+				cTempRecVals[4] = -6
+				cTempRecVals[5] = 10
+				cTempRecVals[6] = 86
+				cTempRecVals[7] = 84
+				cTempRecVals[8] = -6
+				cTempRecVals[9] = -71
+			}
+			$outputs {
+				return 13
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 6 {
+		$name ""
+		$uuid "64367b3f-534d-4a1e-82a3-19ef8e508409"
+
+		$teststep 6.1 {
+			$name ""
+			$uuid "7d30040f-afb5-42ed-aac7-2ef7ee5cc7a3"
+			$inputs {
+				cTempRecVals[0] = 40
+				cTempRecVals[1] = -117
+				cTempRecVals[2] = 14
+				cTempRecVals[3] = -75
+				cTempRecVals[4] = -64
+				cTempRecVals[5] = 53
+				cTempRecVals[6] = 72
+				cTempRecVals[7] = 78
+				cTempRecVals[8] = 6
+				cTempRecVals[9] = 41
+			}
+			$outputs {
+				return 4
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 7 {
+		$name ""
+		$uuid "eefecd2e-111f-493e-8415-068f650011f5"
+
+		$teststep 7.1 {
+			$name ""
+			$uuid "0e9aeee7-eb56-4020-b262-17336ac66a65"
+			$inputs {
+				cTempRecVals[0] = -63
+				cTempRecVals[1] = -39
+				cTempRecVals[2] = 120
+				cTempRecVals[3] = -123
+				cTempRecVals[4] = 74
+				cTempRecVals[5] = -90
+				cTempRecVals[6] = 121
+				cTempRecVals[7] = -119
+				cTempRecVals[8] = 34
+				cTempRecVals[9] = 7
+			}
+			$outputs {
+				return -7
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 8 {
+		$name ""
+		$uuid "c79839de-70db-449c-8986-611884032398"
+
+		$teststep 8.1 {
+			$name ""
+			$uuid "24b6304b-f37d-4ca6-afc5-44653613d791"
+			$inputs {
+				cTempRecVals[0] = 75
+				cTempRecVals[1] = -40
+				cTempRecVals[2] = -61
+				cTempRecVals[3] = 117
+				cTempRecVals[4] = -28
+				cTempRecVals[5] = 17
+				cTempRecVals[6] = -6
+				cTempRecVals[7] = 114
+				cTempRecVals[8] = 11
+				cTempRecVals[9] = 75
+			}
+			$outputs {
+				return 27
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 9 {
+		$name ""
+		$uuid "557167fc-8823-444a-9bd1-17aaaf8b3652"
+
+		$teststep 9.1 {
+			$name ""
+			$uuid "272b7639-7bd1-41a0-98c1-4831c81c39e4"
+			$inputs {
+				cTempRecVals[0] = *none*
+				cTempRecVals[1] = *none*
+				cTempRecVals[2] = *none*
+				cTempRecVals[3] = *none*
+				cTempRecVals[4] = *none*
+				cTempRecVals[5] = *none*
+				cTempRecVals[6] = *none*
+				cTempRecVals[7] = *none*
+				cTempRecVals[8] = *none*
+				cTempRecVals[9] = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 10 {
+		$name ""
+		$uuid "743a7218-df40-467e-b35b-ba21ca092e78"
+
+		$teststep 10.1 {
+			$name ""
+			$uuid "ba81ff6a-8bec-429b-8394-880d53612ad7"
+			$inputs {
+				cTempRecVals[0] = *none*
+				cTempRecVals[1] = *none*
+				cTempRecVals[2] = *none*
+				cTempRecVals[3] = *none*
+				cTempRecVals[4] = *none*
+				cTempRecVals[5] = *none*
+				cTempRecVals[6] = *none*
+				cTempRecVals[7] = *none*
+				cTempRecVals[8] = *none*
+				cTempRecVals[9] = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 11 {
+		$name "Excel Import/Export"
+		$uuid "85d31748-d342-4a68-946a-922ad1bfebfa"
+		$specification """
+			In Excel edited: Specification of Test Case 1
+		"""
+		$description """
+			In Excel edited: Description of Test Case 1
+		"""
+		$comment """
+			In Excel edited: Comment of of Test Case 1
+		"""
+
+		$teststep 11.1 {
+			$name "First Test Step"
+			$uuid "c88946a8-4995-49da-a42c-7f5947000b19"
+			$specification """
+				In Excel edited: Specification of Test Step 1
+			"""
+			$description """
+				In Excel edited: Description of Test Step 1
+			"""
+			$comment """
+				In Excel edited: Comment of of Test Step 1
+			"""
+			$inputs {
+				cTempRecVals[0] = 89
+				cTempRecVals[1] = -32
+				cTempRecVals[2] = -60
+				cTempRecVals[3] = 100
+				cTempRecVals[4] = 71
+				cTempRecVals[5] = 0
+				cTempRecVals[6] = 21
+				cTempRecVals[7] = 1
+				cTempRecVals[8] = 114
+				cTempRecVals[9] = -108
+			}
+			$outputs {
+				return 19
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 12 {
+		$name "In Excel edited: Name of Test Case 2"
+		$uuid "8836ea71-8bd8-4b67-9ee1-664e0fae9af4"
+		$specification """
+			In Excel edited: Specification of Test Case 2
+		"""
+		$description """
+			In Excel edited: Description of Test Case 2
+		"""
+		$comment """
+			In Excel edited: Comment of of Test Case 2
+		"""
+
+		$teststep 12.1 {
+			$name "In Excel edited: Name of Test Step 2"
+			$uuid "6b0b2a0f-4d69-482d-851f-117c0a823fe6"
+			$specification """
+				In Excel edited: Specification of Test Step 2
+			"""
+			$description """
+				In Excel edited: Description of Test Step 2
+			"""
+			$comment """
+				In Excel edited: Comment of of Test Step 2
+			"""
+			$inputs {
+				cTempRecVals[0] = -127
+				cTempRecVals[1] = -86
+				cTempRecVals[2] = 4
+				cTempRecVals[3] = -116
+				cTempRecVals[4] = 2
+				cTempRecVals[5] = -1
+				cTempRecVals[6] = 102
+				cTempRecVals[7] = 47
+				cTempRecVals[8] = -88
+				cTempRecVals[9] = -27
+			}
+			$outputs {
+				return -29
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 13 {
+		$name "In Excel edited: Name of Test Case 3"
+		$uuid "c49d67c1-7628-4577-8870-4b2e81a84dd5"
+		$specification """
+			In Excel edited: Specification of Test Case 3
+		"""
+		$description """
+			In Excel edited: Description of Test Case 3
+		"""
+		$comment """
+			In Excel edited: Comment of of Test Case 3
+		"""
+
+		$teststep 13.1 {
+			$name "In Excel edited: Name of Test Step 3"
+			$uuid "d31d6207-9e70-4ea2-a000-bcd8e23c29ee"
+			$specification """
+				In Excel edited: Specification of Test Step 3
+			"""
+			$description """
+				In Excel edited: Description of Test Step 3
+			"""
+			$comment """
+				In Excel edited: Comment of of Test Step 3
+			"""
+			$inputs {
+				cTempRecVals[0] = 74
+				cTempRecVals[1] = 41
+				cTempRecVals[2] = -62
+				cTempRecVals[3] = -114
+				cTempRecVals[4] = 33
+				cTempRecVals[5] = 78
+				cTempRecVals[6] = 98
+				cTempRecVals[7] = 6
+				cTempRecVals[8] = 10
+				cTempRecVals[9] = 85
+			}
+			$outputs {
+				return 24
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 14 {
+		$name ""
+		$uuid "2b2ff08a-9bb4-4cf1-a8ae-f3d7c6bbd827"
+
+		$teststep 14.1 {
+			$name ""
+			$uuid "f26fdeca-aa5c-4257-a450-07f142f2d8fa"
+			$inputs {
+				cTempRecVals[0] = 105
+				cTempRecVals[1] = -93
+				cTempRecVals[2] = 10
+				cTempRecVals[3] = 6
+				cTempRecVals[4] = 80
+				cTempRecVals[5] = -97
+				cTempRecVals[6] = -113
+				cTempRecVals[7] = 66
+				cTempRecVals[8] = -82
+				cTempRecVals[9] = -32
+			}
+			$outputs {
+				return -15
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 15 {
+		$name ""
+		$uuid "3018329b-384d-4117-a3c0-f8e6bb025390"
+
+		$teststep 15.1 {
+			$name ""
+			$uuid "cc32d5c6-6fdf-4cdb-8acb-8037f29707ab"
+			$inputs {
+				cTempRecVals[0] = 105
+				cTempRecVals[1] = -47
+				cTempRecVals[2] = 47
+				cTempRecVals[3] = -70
+				cTempRecVals[4] = -6
+				cTempRecVals[5] = 10
+				cTempRecVals[6] = 86
+				cTempRecVals[7] = 84
+				cTempRecVals[8] = -6
+				cTempRecVals[9] = -71
+			}
+			$outputs {
+				return 13
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 16 {
+		$name ""
+		$uuid "3560f6ca-d6ed-4d10-8fa3-810a6a67c6f0"
+
+		$teststep 16.1 {
+			$name ""
+			$uuid "63290168-b25c-498f-8b9c-3dc544b8a941"
+			$inputs {
+				cTempRecVals[0] = 40
+				cTempRecVals[1] = -117
+				cTempRecVals[2] = 14
+				cTempRecVals[3] = -75
+				cTempRecVals[4] = -64
+				cTempRecVals[5] = 53
+				cTempRecVals[6] = 72
+				cTempRecVals[7] = 78
+				cTempRecVals[8] = 6
+				cTempRecVals[9] = 41
+			}
+			$outputs {
+				return 4
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 17 {
+		$name ""
+		$uuid "edca1653-2aaf-4669-9b83-9a115931ad68"
+
+		$teststep 17.1 {
+			$name ""
+			$uuid "93b68ab3-ba03-4a2f-b8b5-663d5304055d"
+			$inputs {
+				cTempRecVals[0] = -63
+				cTempRecVals[1] = -39
+				cTempRecVals[2] = 120
+				cTempRecVals[3] = -123
+				cTempRecVals[4] = 74
+				cTempRecVals[5] = -90
+				cTempRecVals[6] = 121
+				cTempRecVals[7] = -119
+				cTempRecVals[8] = 34
+				cTempRecVals[9] = 7
+			}
+			$outputs {
+				return -7
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 18 {
+		$name ""
+		$uuid "b437d350-e28d-4bf0-be65-098373b6fefb"
+
+		$teststep 18.1 {
+			$name ""
+			$uuid "5ae01ab8-7f8b-48c9-8002-55dfddc2a0d4"
+			$inputs {
+				cTempRecVals[0] = 75
+				cTempRecVals[1] = -40
+				cTempRecVals[2] = -61
+				cTempRecVals[3] = 117
+				cTempRecVals[4] = -28
+				cTempRecVals[5] = 17
+				cTempRecVals[6] = -6
+				cTempRecVals[7] = 114
+				cTempRecVals[8] = 11
+				cTempRecVals[9] = 75
+			}
+			$outputs {
+				return 27
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 19 {
+		$name ""
+		$uuid "35a973ae-da39-444a-89da-12c1caecf6de"
+
+		$teststep 19.1 {
+			$name ""
+			$uuid "c249e0a9-4c57-4bb1-a8d6-fdeb35be2f23"
+			$inputs {
+				cTempRecVals[0] = *none*
+				cTempRecVals[1] = *none*
+				cTempRecVals[2] = *none*
+				cTempRecVals[3] = *none*
+				cTempRecVals[4] = *none*
+				cTempRecVals[5] = *none*
+				cTempRecVals[6] = *none*
+				cTempRecVals[7] = *none*
+				cTempRecVals[8] = *none*
+				cTempRecVals[9] = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 20 {
+		$name ""
+		$uuid "56b6c699-7718-4c17-9971-e77081778277"
+
+		$teststep 20.1 {
+			$name ""
+			$uuid "3ad1852c-589b-4147-b7b8-0cc976f7556f"
+			$inputs {
+				cTempRecVals[0] = *none*
+				cTempRecVals[1] = *none*
+				cTempRecVals[2] = *none*
+				cTempRecVals[3] = *none*
+				cTempRecVals[4] = *none*
+				cTempRecVals[5] = *none*
+				cTempRecVals[6] = *none*
+				cTempRecVals[7] = *none*
+				cTempRecVals[8] = *none*
+				cTempRecVals[9] = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

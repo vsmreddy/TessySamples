@@ -1,0 +1,82 @@
+$testobject {
+	$stubfunctions {
+		int absolute(int v) '''
+			if (v < 0) {
+				return -v;
+			}
+			return v;
+		'''
+	}
+
+	$testcase 1 {
+		$name ""
+		$uuid "9b61f4d3-60a3-493c-b7f2-ea4cf7d047bc"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "48fb3112-c046-471e-86c7-34f293657a8d"
+			$inputs {
+				this = Line (class Point & P1, class Point & P2)
+				this.Line (class Point & P1, class Point & P2) {
+					P1 = target_P1
+					P2 = target_P2
+				}
+				this.Line {
+					p1 {
+						X = *none*
+						Y = *none*
+					}
+					p2 {
+						X = *none*
+						Y = *none*
+					}
+				}
+				&target_P1 = Point ()
+				&target_P1.X = 21
+				&target_P1.Y = 5
+				&target_P2 = Point (int x, int y)
+				&target_P2.Point (int x, int y) {
+					x = 24
+					y = 9
+				}
+				&target_P2.X = *none*
+				&target_P2.Y = *none*
+			}
+			$outputs {
+				return 5
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name ""
+		$uuid "8b8d6c75-34d8-469a-a24f-18d31b50ccc4"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "cfa67fb8-5afb-4706-8e79-baa5dba5e110"
+			$inputs {
+				this = *none*
+				this.Line {
+					p1 {
+						X = 5
+						Y = -10
+					}
+					p2 {
+						X = 5
+						Y = -20
+					}
+				}
+			}
+			$outputs {
+				return 10
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

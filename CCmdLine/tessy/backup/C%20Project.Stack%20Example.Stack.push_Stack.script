@@ -1,0 +1,77 @@
+$testobject {
+	$comment """
+		Usage of Evaluation Macros
+	"""
+	$declarations '''
+		/* Module specific Declarations */
+	'''
+	$definitions '''
+		/* Module specific Definitions */
+	'''
+	$stubfunctions {
+		void print_f(char * pChar) '''
+			/* Module specific Stub Function */
+		'''
+	}
+
+	$testcase 1 {
+		$name "Usage of Evaluation Macro in Epilog"
+		$uuid "5a0fb5b3-748c-42cc-960d-5cba4a82b9bb"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "b423dd05-c15f-4576-b711-772dee4d27c7"
+			$inputs {
+				eStackState = RUNNING
+				ulErrorState = ERR_no_error
+				ulStackCounter = 0
+				ulValue = 9876
+			}
+			$outputs {
+				eStackState = RUNNING
+				ulErrorState = ERR_no_error
+				ulStack[0] = 9876
+				ulStackCounter = 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+			$epilog '''
+				TESSY_EVAL_U32("Stack State", eStackState, ==, RUNNING);
+				TESSY_EVAL_U32("Error State", ulErrorState, ==, ERR_no_error);
+				TESSY_EVAL_U32("First Element on Stack", ulStack[0], ==, 9876);
+				TESSY_EVAL_U32("Stack Counter", ulStackCounter, ==, 1);
+			'''
+		}
+	}
+
+	$testcase 2 {
+		$name "Usage of Evaluation Macro in Stub Function"
+		$uuid "5e771103-48bb-42b1-8d7b-2c3cc2382ea3"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "d4611759-c415-401a-bbe8-ef08a80e5164"
+			$stubfunctions {
+				void print_f(char * pChar) '''
+					TESSY_EVAL_U32("print_f():*pChar", *pChar, ==, 'S');
+				'''
+			}
+			$inputs {
+				eStackState = RUNNING
+				ulErrorState = ERR_no_error
+				ulStackCounter = STACKMAX
+				ulValue = 0
+			}
+			$outputs {
+				eStackState = ERROR
+				ulErrorState = ERR_stack_overflow
+				ulStack[0] = *none*
+				ulStackCounter = STACKMAX
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

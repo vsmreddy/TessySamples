@@ -1,0 +1,62 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "691c31a8-ab77-4607-8140-3a50f8909f2e"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "3983f9f5-9209-49e8-9530-0d53ec910319"
+			$inputs {
+				this = Point (int x, int y)
+				this.Point (int x, int y) {
+					x = 10
+					y = 10
+				}
+				this.Point {
+					X = *none*
+					Y = *none*
+				}
+				x = 1
+				y = 1
+			}
+			$outputs {
+				this.Point {
+					X = 11
+					Y = 11
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "f4488c13-3a59-4a2f-b35b-62f906408f61"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "233d1a26-417f-4b6f-a19c-0bc3a2b475f5"
+			$inputs {
+				this = Point ()
+				this.Point {
+					X = 20
+					Y = 20
+				}
+				x = -5
+				y = 5
+			}
+			$outputs {
+				this.Point {
+					X = 15
+					Y = 25
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

@@ -1,0 +1,431 @@
+$testobject {
+	$comment """
+		Usage of Classification Tree Editor (CTE)
+	"""
+
+	$testcase 1 {
+		$name "Invalid state"
+		$uuid "cc07ce81-cc08-40b6-a119-41bb2797f467"
+		$specification """
+			- Get phase time TL_GetPhaseTime():2000
+			- Current lighting state:undefined
+			- Next lighting state:Yellow blinking
+			- Actual phase time:2000
+			- Error occurred:Yes
+			  - Call ErrorHandler:eERR_STATE
+		"""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "87dd68cb-85b1-48d1-b3c2-34c161825706"
+			$inputs {
+				TL_GetPhaseTime() = 2000
+				stTrafficLight {
+					eLightState = 0xFFFF
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = eERR_STATE
+				stTrafficLight {
+					eLightState = eYellowBlinking
+					ulPhaseTime = 2000
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+				ErrorHandler
+				SetPort
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Traffic light is off"
+		$uuid "4e14b2df-fa80-4607-a6cd-dc0c29519472"
+		$specification """
+			- Get phase time TL_GetPhaseTime():0
+			- Current lighting state:valid
+			  - State:off
+			- Next lighting state:off
+			- Actual phase time:0
+			- Error occurred:No
+		"""
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "d195dafa-6dae-43cd-b3c7-92dfe1332bd7"
+			$inputs {
+				TL_GetPhaseTime() = 0
+				stTrafficLight {
+					eLightState = eOff
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eOff
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+				SetPort
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "Yellow blinking"
+		$uuid "836c15ee-d432-424e-8189-57dd695369bf"
+		$specification """
+			- Get phase time TL_GetPhaseTime():0
+			- Current lighting state:valid
+			  - State:Yellow blinking
+			- Next lighting state:Yellow blinking
+			- Actual phase time:0
+			- Error occurred:No
+		"""
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "aee134a7-c1cf-47fd-8717-0e899dfb6ec0"
+			$inputs {
+				TL_GetPhaseTime() = 0
+				stTrafficLight {
+					eLightState = eYellowBlinking
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eYellowBlinking
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+				SetPort
+			}
+		}
+	}
+
+	$testcase 4 {
+		$name "Red to red and yellow"
+		$uuid "ae5434ea-d45d-49af-976a-ca33c2182d6e"
+		$specification """
+			- Get phase time TL_GetPhaseTime():30000
+			- Current lighting state:valid
+			  - State:Red
+			- Next lighting state:Red and Yellow
+			- Actual phase time:0
+			- Error occurred:No
+		"""
+
+		$teststep 4.1 {
+			$name ""
+			$uuid "2e451cfc-1e58-4227-9ea8-7da2329eb08f"
+			$inputs {
+				TL_GetPhaseTime() = 30000
+				stTrafficLight {
+					eLightState = eRed
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eRedYellow
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+				TL_ClearPhaseTime
+				SetPort
+			}
+		}
+	}
+
+	$testcase 5 {
+		$name "Red and yellow to green"
+		$uuid "ea9abbdc-d3de-43a6-bb40-6b6d362e9a51"
+		$specification """
+			- Get phase time TL_GetPhaseTime():1000
+			- Current lighting state:valid
+			  - State:Red and Yellow
+			- Next lighting state:Green
+			- Actual phase time:0
+			- Error occurred:No
+		"""
+
+		$teststep 5.1 {
+			$name ""
+			$uuid "1199e9ed-eab6-4c77-a464-e15a7e5c1dfe"
+			$inputs {
+				TL_GetPhaseTime() = 1000
+				stTrafficLight {
+					eLightState = eRedYellow
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eGreen
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+				TL_ClearPhaseTime
+				SetPort
+			}
+		}
+	}
+
+	$testcase 6 {
+		$name "Green to yellow"
+		$uuid "2f1bc4cc-c90e-4445-9fef-9ede72401bf2"
+		$specification """
+			- Get phase time TL_GetPhaseTime():45000
+			- Current lighting state:valid
+			  - State:Green
+			- Next lighting state:Yellow
+			- Actual phase time:0
+			- Error occurred:No
+		"""
+
+		$teststep 6.1 {
+			$name ""
+			$uuid "f1469ee7-183c-4ff4-a281-9d9295387e95"
+			$inputs {
+				TL_GetPhaseTime() = 45000
+				stTrafficLight {
+					eLightState = eGreen
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eYellow
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+				TL_ClearPhaseTime
+				SetPort
+			}
+		}
+	}
+
+	$testcase 7 {
+		$name "Yellow to red"
+		$uuid "b6cc10fc-c267-4852-8846-61dce80c08ce"
+		$specification """
+			- Get phase time TL_GetPhaseTime():2000
+			- Current lighting state:valid
+			  - State:Yellow
+			- Next lighting state:Red
+			- Actual phase time:0
+			- Error occurred:No
+		"""
+
+		$teststep 7.1 {
+			$name ""
+			$uuid "7c0204e2-bc3e-4298-8b96-7031eaad0523"
+			$inputs {
+				TL_GetPhaseTime() = 2000
+				stTrafficLight {
+					eLightState = eYellow
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eRed
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+				TL_ClearPhaseTime
+				SetPort
+			}
+		}
+	}
+
+	$testcase 8 {
+		$name "Green remains"
+		$uuid "faec0f1f-c5f7-4398-a172-bf6f98114226"
+		$specification """
+			- Get phase time TL_GetPhaseTime():5000
+			- Current lighting state:valid
+			  - State:Green
+			- Next lighting state:Green
+			- Actual phase time:5000
+			- Error occurred:No
+		"""
+
+		$teststep 8.1 {
+			$name ""
+			$uuid "b36ba2ec-ef30-4a9f-8c5a-da669a654eb0"
+			$inputs {
+				TL_GetPhaseTime() = 5000
+				stTrafficLight {
+					eLightState = eGreen
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eGreen
+					ulPhaseTime = 5000
+				}
+			}
+			$calltrace {
+				TL_GetPhaseTime
+			}
+		}
+	}
+
+	$testcase 9 {
+		$name "Complete phase"
+		$uuid "8e32c7da-eb83-42bf-9825-a2331eeb5b35"
+
+		$teststep 9.1 {
+			$name "Red"
+			$uuid "7d7167b7-1398-442f-8047-fa5bcf6b8be3"
+			$specification """
+				- Get phase time TL_GetPhaseTime():30000
+				- Current lighting state:valid
+				  - State:Red
+				- Next lighting state:Red and Yellow
+				- Actual phase time:0
+				- Error occurred:No
+			"""
+			$inputs {
+				TL_GetPhaseTime() = 30000
+				stTrafficLight {
+					eLightState = eRed
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eRedYellow
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 9.2 {
+			$name "Red and Yellow"
+			$uuid "c8f80344-4e22-4ba4-b7fc-0359fbdadfbf"
+			$specification """
+				- Get phase time TL_GetPhaseTime():1000
+				- Next lighting state:Green
+				- Actual phase time:0
+				- Error occurred:No
+			"""
+			$inputs {
+				TL_GetPhaseTime() = 1000
+				stTrafficLight {
+					eLightState = *none*
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eGreen
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 9.3 {
+			$name "Green"
+			$uuid "ad7fd69d-b97a-438b-ac6d-9849c988a182"
+			$specification """
+				- Get phase time TL_GetPhaseTime():45000
+				- Next lighting state:Yellow
+				- Actual phase time:0
+				- Error occurred:No
+			"""
+			$inputs {
+				TL_GetPhaseTime() = 45000
+				stTrafficLight {
+					eLightState = *none*
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eYellow
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 9.4 {
+			$name "Yellow"
+			$uuid "207edf1d-9748-4a51-a454-7f4913f6c1cd"
+			$specification """
+				- Get phase time TL_GetPhaseTime():2000
+				- Next lighting state:Red
+				- Actual phase time:0
+				- Error occurred:No
+			"""
+			$inputs {
+				TL_GetPhaseTime() = 2000
+				stTrafficLight {
+					eLightState = *none*
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eRed
+					ulPhaseTime = 0
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 9.5 {
+			$name "Red"
+			$uuid "5deb1feb-759e-4702-8167-dcea400e683c"
+			$specification """
+				- Get phase time TL_GetPhaseTime():5000
+				- Next lighting state:Red
+				- Actual phase time:5000
+				- Error occurred:No
+			"""
+			$inputs {
+				TL_GetPhaseTime() = 5000
+				stTrafficLight {
+					eLightState = *none*
+				}
+			}
+			$outputs {
+				ErrorHandler(eErrorState) = *none*
+				stTrafficLight {
+					eLightState = eRed
+					ulPhaseTime = 5000
+				}
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

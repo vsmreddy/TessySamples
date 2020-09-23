@@ -6,7 +6,7 @@
     defaultEnvironment="GNU GCC Eclipse CDT Default"
     description="Sample C project with TESSY"
     enableSourceRoot="false"
-    identifier="a0341979-f0cc-4607-9511-d4e808c34525"
+    identifier="9600c102-627e-4e3b-bdf1-c632773dd7e0"
     location="$(PROJECTROOT)\tessy"
     name="C project"
     projectVersion="5"

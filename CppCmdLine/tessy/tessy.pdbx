@@ -6,7 +6,7 @@
     defaultEnvironment="GNU GCC Eclipse CDT (Default)"
     description="Sample C++ project with TESSY"
     enableSourceRoot="false"
-    identifier="9292703b-fb77-465d-b57e-842b5b37b91c"
+    identifier="0f76b08a-1ccc-4566-a758-e55b3005bda1"
     location="$(PROJECTROOT)\tessy"
     name="C++ project"
     projectVersion="5"

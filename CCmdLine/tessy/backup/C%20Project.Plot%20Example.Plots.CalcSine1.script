@@ -1,0 +1,5900 @@
+$testobject {
+	$comment """
+		Usage of Plots
+	"""
+
+	$testcase 1 {
+		$name "low sampling rate"
+		$uuid "1d4777e1-8f6a-4033-bdaa-580c0660ca3a"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "9c4a0059-ab48-40ec-9be7-77366b8bda83"
+			$inputs {
+				radian_value = 0
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.2 {
+			$name ""
+			$uuid "d65dcb39-3f84-4494-9414-54a77582eca8"
+			$inputs {
+				radian_value = 10
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.3 {
+			$name ""
+			$uuid "6427ee8a-5652-4716-9669-e8b6347c22b5"
+			$inputs {
+				radian_value = 20
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.4 {
+			$name ""
+			$uuid "296b8de7-b374-4f65-ae46-9f7d7c03d9d3"
+			$inputs {
+				radian_value = 30
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.5 {
+			$name ""
+			$uuid "84c81ab0-4b8d-48c6-ac2b-264def7c002b"
+			$inputs {
+				radian_value = 40
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.6 {
+			$name ""
+			$uuid "693565a6-60f1-4d74-a3be-4d4afd5d8bdb"
+			$inputs {
+				radian_value = 50
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.7 {
+			$name ""
+			$uuid "801f1334-20e4-452c-9c37-ad630df3799a"
+			$inputs {
+				radian_value = 60
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.8 {
+			$name ""
+			$uuid "e96b9f96-fe05-4388-b4af-8fae9243668c"
+			$inputs {
+				radian_value = 70
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.9 {
+			$name ""
+			$uuid "94eb5162-01c5-4a85-8152-345dd0d9c880"
+			$inputs {
+				radian_value = 80
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.10 {
+			$name ""
+			$uuid "bf8b4942-0ff4-42d2-9dbf-ed90d019a823"
+			$inputs {
+				radian_value = 90
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.11 {
+			$name ""
+			$uuid "a7979172-54e5-4f7b-b1b1-fb96874789b7"
+			$inputs {
+				radian_value = 100
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.12 {
+			$name ""
+			$uuid "76036ea0-3a11-421b-ae01-00410ad8bf69"
+			$inputs {
+				radian_value = 110
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.13 {
+			$name ""
+			$uuid "d96573a0-5198-4f22-adf7-ef20602e163a"
+			$inputs {
+				radian_value = 120
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.14 {
+			$name ""
+			$uuid "b119523c-b2b0-4f3c-8c64-efda477106f8"
+			$inputs {
+				radian_value = 130
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.15 {
+			$name ""
+			$uuid "4347b125-2b45-4736-a10e-24b048eb34ae"
+			$inputs {
+				radian_value = 140
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.16 {
+			$name ""
+			$uuid "dc5a4eb4-eacc-48db-88a3-37a15bad030c"
+			$inputs {
+				radian_value = 150
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.17 {
+			$name ""
+			$uuid "0ecd1fcc-34b6-4740-b89c-0786228ab514"
+			$inputs {
+				radian_value = 160
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.18 {
+			$name ""
+			$uuid "958cf12c-43c8-4d28-a51c-8c9ae86c0097"
+			$inputs {
+				radian_value = 170
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 1.19 {
+			$name ""
+			$uuid "cc71f12b-c472-4a98-8b11-176d6f22f429"
+			$inputs {
+				radian_value = 180
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "medium sampling rate"
+		$uuid "9e830da2-a592-476a-97f0-cedb23bf0679"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "eaac0ba3-8475-46c2-aae9-4725de4b0e39"
+			$inputs {
+				radian_value = 0
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.2 {
+			$name ""
+			$uuid "deafeb01-5070-4632-9809-7b77b82e7eb5"
+			$inputs {
+				radian_value = 5
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 17 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.3 {
+			$name ""
+			$uuid "7c016a6f-88f9-43c7-b434-006afab21b93"
+			$inputs {
+				radian_value = 10
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.4 {
+			$name ""
+			$uuid "07135d42-7cb6-420d-bec0-b54850551a85"
+			$inputs {
+				radian_value = 15
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 50 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.5 {
+			$name ""
+			$uuid "4a19a888-4180-45f4-8637-dd32350391d2"
+			$inputs {
+				radian_value = 20
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.6 {
+			$name ""
+			$uuid "b3f53d33-e71e-4c34-b958-907ee7c53e43"
+			$inputs {
+				radian_value = 25
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 77 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.7 {
+			$name ""
+			$uuid "43763fc8-9738-4b0f-971d-9950ebfb4668"
+			$inputs {
+				radian_value = 30
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.8 {
+			$name ""
+			$uuid "3a984de8-ca33-400c-a8c6-7c9140c1bac3"
+			$inputs {
+				radian_value = 35
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 94 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.9 {
+			$name ""
+			$uuid "e7b72a43-6c5e-4352-8554-898246c3fad3"
+			$inputs {
+				radian_value = 40
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.10 {
+			$name ""
+			$uuid "3b3c0a62-2f56-48ea-bce2-e327932e8b15"
+			$inputs {
+				radian_value = 45
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 100 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.11 {
+			$name ""
+			$uuid "17e0cd22-b6ae-4e82-93d1-a1750d98ef7a"
+			$inputs {
+				radian_value = 50
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.12 {
+			$name ""
+			$uuid "159c0ae3-45b4-4c56-b11f-a73178b90c78"
+			$inputs {
+				radian_value = 55
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 94 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.13 {
+			$name ""
+			$uuid "21cc53f0-fdff-499d-a857-3128e29ee2b3"
+			$inputs {
+				radian_value = 60
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.14 {
+			$name ""
+			$uuid "42dacd31-278b-4b15-bf40-e96d4da5b340"
+			$inputs {
+				radian_value = 65
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 77 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.15 {
+			$name ""
+			$uuid "eff60dba-b193-4b5b-89a0-e139b540ba0f"
+			$inputs {
+				radian_value = 70
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.16 {
+			$name ""
+			$uuid "3f167b6b-cf40-41dd-99f5-80dcf0a59326"
+			$inputs {
+				radian_value = 75
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 50 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.17 {
+			$name ""
+			$uuid "50e64e0a-f493-4c7f-8349-59e4136f4350"
+			$inputs {
+				radian_value = 80
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.18 {
+			$name ""
+			$uuid "0b97db89-0c5c-4139-bb79-730cdfd53636"
+			$inputs {
+				radian_value = 85
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 17 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.19 {
+			$name ""
+			$uuid "408c1eb2-cb45-428e-b16a-be83a269ba64"
+			$inputs {
+				radian_value = 90
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.20 {
+			$name ""
+			$uuid "da44528a-feb7-4e6a-bd45-6f07c5ef25da"
+			$inputs {
+				radian_value = 95
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -17 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.21 {
+			$name ""
+			$uuid "17e3efda-a421-43df-bcb8-da02c215f536"
+			$inputs {
+				radian_value = 100
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.22 {
+			$name ""
+			$uuid "27322e4e-becf-40de-8d6f-d3caede88c20"
+			$inputs {
+				radian_value = 105
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -50 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.23 {
+			$name ""
+			$uuid "2c073860-838d-49a2-b8ea-c12f16a4aafc"
+			$inputs {
+				radian_value = 110
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.24 {
+			$name ""
+			$uuid "968fe26d-3777-43ea-9aa9-3afdc5c4ed04"
+			$inputs {
+				radian_value = 115
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -77 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.25 {
+			$name ""
+			$uuid "d71e3658-0c8c-48f8-8d17-493cc5fd1645"
+			$inputs {
+				radian_value = 120
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.26 {
+			$name ""
+			$uuid "1007a1c1-4a07-4c3c-a0fb-dae12715ab1b"
+			$inputs {
+				radian_value = 125
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -94 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.27 {
+			$name ""
+			$uuid "d7a9cd03-b75b-43d4-a85e-c568e0ff97be"
+			$inputs {
+				radian_value = 130
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.28 {
+			$name ""
+			$uuid "f2aee416-d6a0-4499-a30e-3adc43129353"
+			$inputs {
+				radian_value = 135
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -100 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.29 {
+			$name ""
+			$uuid "5fd62a38-9e6c-4b78-9900-5d18632371d5"
+			$inputs {
+				radian_value = 140
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.30 {
+			$name ""
+			$uuid "9eac9de1-1430-435c-b937-39a6208cb1b8"
+			$inputs {
+				radian_value = 145
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -94 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.31 {
+			$name ""
+			$uuid "e88f7657-598c-4331-a363-b8024df1e7a7"
+			$inputs {
+				radian_value = 150
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.32 {
+			$name ""
+			$uuid "f45f8a04-9f9b-4d05-9e03-c5815eab04db"
+			$inputs {
+				radian_value = 155
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -77 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.33 {
+			$name ""
+			$uuid "4363c5e9-9b11-4755-866a-0d603c614623"
+			$inputs {
+				radian_value = 160
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.34 {
+			$name ""
+			$uuid "82481c4c-92ee-4238-ac47-ed3d4bb9e9c3"
+			$inputs {
+				radian_value = 165
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -50 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.35 {
+			$name ""
+			$uuid "1f0229a7-de3b-4505-bed8-f7669ca0daff"
+			$inputs {
+				radian_value = 170
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.36 {
+			$name ""
+			$uuid "1a3d242c-96ca-4ede-8239-28332bc65dd2"
+			$inputs {
+				radian_value = 175
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -17 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 2.37 {
+			$name ""
+			$uuid "4ddf4c10-f1ba-4153-a207-1a0bc1344fa9"
+			$inputs {
+				radian_value = 180
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "high sampling rate"
+		$uuid "99a9ed7e-0618-48dc-a342-8e702d2af34f"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "7490cc4a-d6c5-472b-82e8-e54d8bd6a368"
+			$inputs {
+				radian_value = 0
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.2 {
+			$name ""
+			$uuid "a6238b92-7267-4b96-acec-b59fc8377cf5"
+			$inputs {
+				radian_value = 2
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 7 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.3 {
+			$name ""
+			$uuid "6588cde0-389f-45bf-8838-68567c23a90d"
+			$inputs {
+				radian_value = 4
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 14 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.4 {
+			$name ""
+			$uuid "559f7325-3234-47ae-8d91-4e352eda9288"
+			$inputs {
+				radian_value = 6
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 21 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.5 {
+			$name ""
+			$uuid "e4388a28-b6ee-4b27-9971-19b6e5794f10"
+			$inputs {
+				radian_value = 8
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 28 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.6 {
+			$name ""
+			$uuid "f9e68124-5807-4ead-9674-c5ea80b2525b"
+			$inputs {
+				radian_value = 10
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.7 {
+			$name ""
+			$uuid "3ae100c9-41c8-4df9-8110-f0dcfea2b448"
+			$inputs {
+				radian_value = 12
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 41 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.8 {
+			$name ""
+			$uuid "3d023cc6-7c78-43b9-8d9d-932a355dba4c"
+			$inputs {
+				radian_value = 14
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 47 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.9 {
+			$name ""
+			$uuid "a7f902c9-e914-4289-90c7-217238b7819a"
+			$inputs {
+				radian_value = 16
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 53 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.10 {
+			$name ""
+			$uuid "13b12455-f798-4f0b-abc6-51aca72be562"
+			$inputs {
+				radian_value = 18
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 59 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.11 {
+			$name ""
+			$uuid "21f8908e-acb5-4edf-b069-223c5cb8b0ad"
+			$inputs {
+				radian_value = 20
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.12 {
+			$name ""
+			$uuid "9057fc2a-4c53-4e9e-84b9-9a7bedeca0a2"
+			$inputs {
+				radian_value = 22
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 69 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.13 {
+			$name ""
+			$uuid "ae09ab28-97b7-470f-90cf-c7b024485813"
+			$inputs {
+				radian_value = 24
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 74 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.14 {
+			$name ""
+			$uuid "89c75cff-aadf-44c2-8aa1-22bf574b59c0"
+			$inputs {
+				radian_value = 26
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 79 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.15 {
+			$name ""
+			$uuid "1ae195de-c748-41a5-9d3f-36ea4219152e"
+			$inputs {
+				radian_value = 28
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 83 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.16 {
+			$name ""
+			$uuid "045b3f9c-7405-491d-ae78-6acd0decca5a"
+			$inputs {
+				radian_value = 30
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.17 {
+			$name ""
+			$uuid "4063d447-709f-41db-8e71-979b6bfb3d0b"
+			$inputs {
+				radian_value = 32
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 90 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.18 {
+			$name ""
+			$uuid "3693fc8b-8e73-4f52-95db-d3a4812ac4d1"
+			$inputs {
+				radian_value = 34
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 93 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.19 {
+			$name ""
+			$uuid "85b0844a-29da-4f8b-a2c5-0ac000fa763f"
+			$inputs {
+				radian_value = 36
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 95 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.20 {
+			$name ""
+			$uuid "dbf01b90-513c-43b4-b7fc-9bb8eb5e6ce0"
+			$inputs {
+				radian_value = 38
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 97 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.21 {
+			$name ""
+			$uuid "129b00ec-cd04-4f8a-be94-2485165960be"
+			$inputs {
+				radian_value = 40
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.22 {
+			$name ""
+			$uuid "a388eda1-18e5-4d95-a1be-fc7a84b0c556"
+			$inputs {
+				radian_value = 42
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 99 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.23 {
+			$name ""
+			$uuid "519b58f5-5566-4acf-a2d2-9a7019ebe800"
+			$inputs {
+				radian_value = 44
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 100 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.24 {
+			$name ""
+			$uuid "2772e27c-dffd-4456-a9b6-09198f270303"
+			$inputs {
+				radian_value = 46
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 100 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.25 {
+			$name ""
+			$uuid "021ebe00-3621-4fa1-94c6-b68e38813a3b"
+			$inputs {
+				radian_value = 48
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 99 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.26 {
+			$name ""
+			$uuid "67a40de9-72b7-40dd-a1cb-d0e2c557b3ef"
+			$inputs {
+				radian_value = 50
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.27 {
+			$name ""
+			$uuid "a34cb5c3-7704-4190-89dc-647ef8f88630"
+			$inputs {
+				radian_value = 52
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 97 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.28 {
+			$name ""
+			$uuid "1deb1809-adbc-4887-8397-b52171011a19"
+			$inputs {
+				radian_value = 54
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 95 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.29 {
+			$name ""
+			$uuid "32d44cb0-f950-4d87-a929-cc0953ce065f"
+			$inputs {
+				radian_value = 56
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 93 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.30 {
+			$name ""
+			$uuid "5dcadcd5-32ca-4156-aa7c-4e3176d7af1c"
+			$inputs {
+				radian_value = 58
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 90 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.31 {
+			$name ""
+			$uuid "1d1a0ea4-34da-4817-8de9-fcb1f6493226"
+			$inputs {
+				radian_value = 60
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.32 {
+			$name ""
+			$uuid "5005db87-2741-4835-864e-0591d0d64a41"
+			$inputs {
+				radian_value = 62
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 83 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.33 {
+			$name ""
+			$uuid "0022b596-d8ce-4f0e-bcf7-7607a5117969"
+			$inputs {
+				radian_value = 64
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 79 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.34 {
+			$name ""
+			$uuid "058286ee-a6f2-41d4-a2e4-ce61720f38cc"
+			$inputs {
+				radian_value = 66
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 74 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.35 {
+			$name ""
+			$uuid "e4c69dfc-39f5-4d7b-bf79-8000e53f3cd7"
+			$inputs {
+				radian_value = 68
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 69 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.36 {
+			$name ""
+			$uuid "b8ac69ee-411a-4a82-8f9e-a41f3af56b42"
+			$inputs {
+				radian_value = 70
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.37 {
+			$name ""
+			$uuid "16723ea5-5351-443a-8147-d1a90e90d6b7"
+			$inputs {
+				radian_value = 72
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 59 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.38 {
+			$name ""
+			$uuid "b9698e66-2175-4ce1-a529-8b32ab651e8e"
+			$inputs {
+				radian_value = 74
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 53 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.39 {
+			$name ""
+			$uuid "83895eee-dc92-4e47-95e8-1d2e17e33e5c"
+			$inputs {
+				radian_value = 76
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 47 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.40 {
+			$name ""
+			$uuid "14d93099-789c-4fa6-8a09-1a334c24c367"
+			$inputs {
+				radian_value = 78
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 41 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.41 {
+			$name ""
+			$uuid "8f1f1084-7a82-44b2-9188-8b1420576b04"
+			$inputs {
+				radian_value = 80
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.42 {
+			$name ""
+			$uuid "ddd84d42-2ac9-431d-95f1-9ebff16e2fed"
+			$inputs {
+				radian_value = 82
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 28 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.43 {
+			$name ""
+			$uuid "c547bb85-4c77-4f46-b1e9-25c76c682ddf"
+			$inputs {
+				radian_value = 84
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 21 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.44 {
+			$name ""
+			$uuid "aa30afa2-a92e-4be2-958d-02babe7a0b78"
+			$inputs {
+				radian_value = 86
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 14 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.45 {
+			$name ""
+			$uuid "fef6b068-8dba-44db-80d7-541abdc1bf5b"
+			$inputs {
+				radian_value = 88
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 7 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.46 {
+			$name ""
+			$uuid "32dc5b3b-7a98-421c-9614-d31d6d598eaf"
+			$inputs {
+				radian_value = 90
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.47 {
+			$name ""
+			$uuid "8c5b2f17-1e07-42e2-bfaa-9a02493597d9"
+			$inputs {
+				radian_value = 92
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -7 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.48 {
+			$name ""
+			$uuid "b13cee6e-25b6-45c9-b688-46e074dbf802"
+			$inputs {
+				radian_value = 94
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -14 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.49 {
+			$name ""
+			$uuid "93ddc12e-dc84-4ad7-9036-1aa5228937c5"
+			$inputs {
+				radian_value = 96
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -21 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.50 {
+			$name ""
+			$uuid "19d79566-85ff-4297-9ac7-e602ccbc1b3f"
+			$inputs {
+				radian_value = 98
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -28 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.51 {
+			$name ""
+			$uuid "095c6ee3-7028-41a3-8032-c0719a80295b"
+			$inputs {
+				radian_value = 100
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.52 {
+			$name ""
+			$uuid "7051768f-8a94-4073-be2c-cb4f62ef6619"
+			$inputs {
+				radian_value = 102
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -41 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.53 {
+			$name ""
+			$uuid "08d2cb71-c083-4d6e-9750-b52177cd1688"
+			$inputs {
+				radian_value = 104
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -47 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.54 {
+			$name ""
+			$uuid "7cdd5ef2-310e-44a8-afc3-3fc3a5cff6db"
+			$inputs {
+				radian_value = 106
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -53 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.55 {
+			$name ""
+			$uuid "12365b24-2e26-4fa8-be71-eb29298b8df9"
+			$inputs {
+				radian_value = 108
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -59 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.56 {
+			$name ""
+			$uuid "197830ff-ab69-4601-a850-61cc3035b146"
+			$inputs {
+				radian_value = 110
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.57 {
+			$name ""
+			$uuid "0c1fc90a-73cd-4deb-a6d8-94ace622c735"
+			$inputs {
+				radian_value = 112
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -69 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.58 {
+			$name ""
+			$uuid "bff07968-28d1-4dda-bb67-d706e33932e4"
+			$inputs {
+				radian_value = 114
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -74 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.59 {
+			$name ""
+			$uuid "614340a9-ef31-47e5-8f16-9ca92997a3a3"
+			$inputs {
+				radian_value = 116
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -79 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.60 {
+			$name ""
+			$uuid "7114a1bd-e289-4cfb-baa1-001976771700"
+			$inputs {
+				radian_value = 118
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -83 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.61 {
+			$name ""
+			$uuid "5e82317e-53bf-45d3-95d2-045feba2b9e7"
+			$inputs {
+				radian_value = 120
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.62 {
+			$name ""
+			$uuid "30e9144e-afda-45bc-887e-2abba3ce22bf"
+			$inputs {
+				radian_value = 122
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -90 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.63 {
+			$name ""
+			$uuid "60dfccdd-282d-4751-8bb8-e9fc43a8360a"
+			$inputs {
+				radian_value = 124
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -93 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.64 {
+			$name ""
+			$uuid "b9bb9da6-d7ec-48cd-b9b4-220244c63894"
+			$inputs {
+				radian_value = 126
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -95 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.65 {
+			$name ""
+			$uuid "4837e04e-818d-497a-8522-c73828294c1f"
+			$inputs {
+				radian_value = 128
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -97 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.66 {
+			$name ""
+			$uuid "d838fc69-2620-4887-bb6e-c76524280622"
+			$inputs {
+				radian_value = 130
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.67 {
+			$name ""
+			$uuid "10034595-b598-4f54-8fda-8086e8fae342"
+			$inputs {
+				radian_value = 132
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -99 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.68 {
+			$name ""
+			$uuid "716b441b-10e5-4110-aa94-cda8f6270c92"
+			$inputs {
+				radian_value = 134
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -100 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.69 {
+			$name ""
+			$uuid "21c3d83d-426f-458a-806a-874685a138e2"
+			$inputs {
+				radian_value = 136
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -100 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.70 {
+			$name ""
+			$uuid "434af2f0-10e9-4aad-8783-c9a128162f0b"
+			$inputs {
+				radian_value = 138
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -99 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.71 {
+			$name ""
+			$uuid "6787909e-8db9-47df-8945-4f2c76b7cd56"
+			$inputs {
+				radian_value = 140
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -98 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.72 {
+			$name ""
+			$uuid "3270a91e-cc1c-4338-aec1-2c70e2a6b938"
+			$inputs {
+				radian_value = 142
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -97 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.73 {
+			$name ""
+			$uuid "76e853bd-b9ff-4c06-824e-636917354416"
+			$inputs {
+				radian_value = 144
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -95 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.74 {
+			$name ""
+			$uuid "8dbfecd5-acb5-45b2-98c4-c47a7ddd376b"
+			$inputs {
+				radian_value = 146
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -93 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.75 {
+			$name ""
+			$uuid "bdffa687-eebf-48cc-8602-7b4dd6440e96"
+			$inputs {
+				radian_value = 148
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -90 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.76 {
+			$name ""
+			$uuid "24c44702-d75f-4276-b746-8d3d617f56e6"
+			$inputs {
+				radian_value = 150
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -87 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.77 {
+			$name ""
+			$uuid "4909c097-f98c-48dd-b5f4-2f6edae416e5"
+			$inputs {
+				radian_value = 152
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -83 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.78 {
+			$name ""
+			$uuid "c8a7025d-57f2-4d09-8a63-04c0c8021a25"
+			$inputs {
+				radian_value = 154
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -79 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.79 {
+			$name ""
+			$uuid "e64aac12-7e64-4b49-912b-97285cfd6e84"
+			$inputs {
+				radian_value = 156
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -74 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.80 {
+			$name ""
+			$uuid "535a8659-475f-47e0-b9f8-a5eb78c6cf79"
+			$inputs {
+				radian_value = 158
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -69 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.81 {
+			$name ""
+			$uuid "441514c0-96ee-41b4-888e-d0a454836a21"
+			$inputs {
+				radian_value = 160
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -64 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.82 {
+			$name ""
+			$uuid "3bebcc31-461d-4d00-b6f7-58e732fe236c"
+			$inputs {
+				radian_value = 162
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -59 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.83 {
+			$name ""
+			$uuid "07354f6a-6cc3-461a-ad69-04be6a24ff1c"
+			$inputs {
+				radian_value = 164
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -53 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.84 {
+			$name ""
+			$uuid "253ff75d-1dc8-4834-9e54-29f8a7c3f6c0"
+			$inputs {
+				radian_value = 166
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -47 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.85 {
+			$name ""
+			$uuid "ee364de4-5920-47d0-978d-8dcf5d5adb55"
+			$inputs {
+				radian_value = 168
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -41 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.86 {
+			$name ""
+			$uuid "a4ef5298-0ac4-40e9-96f9-a84eb3e6fedb"
+			$inputs {
+				radian_value = 170
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -34 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.87 {
+			$name ""
+			$uuid "c93895fc-cb24-4b67-a825-dffe685b9360"
+			$inputs {
+				radian_value = 172
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -28 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.88 {
+			$name ""
+			$uuid "91f703a3-0d44-48a7-90ea-c948a52e27d3"
+			$inputs {
+				radian_value = 174
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -21 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.89 {
+			$name ""
+			$uuid "c8163dfc-0594-42d5-97a2-17215ab5e054"
+			$inputs {
+				radian_value = 176
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -14 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.90 {
+			$name ""
+			$uuid "cde801ed-3688-46c0-8457-ab74db4408a6"
+			$inputs {
+				radian_value = 178
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return -7 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+
+		$teststep 3.91 {
+			$name ""
+			$uuid "e667d0cf-afc0-4edf-8fe2-cd3e5c0b1958"
+			$inputs {
+				radian_value = 180
+				interpolate = yes
+			}
+			$outputs {
+				sine_values[0] = 100
+				sine_values[1] = 126
+				sine_values[2] = 150
+				sine_values[3] = 171
+				sine_values[4] = 187
+				sine_values[5] = 197
+				sine_values[6] = 200
+				sine_values[7] = 197
+				sine_values[8] = 187
+				sine_values[9] = 171
+				sine_values[10] = 150
+				sine_values[11] = 126
+				sine_values[12] = 100
+				sine_values[13] = 74
+				sine_values[14] = 50
+				sine_values[15] = 29
+				sine_values[16] = 13
+				sine_values[17] = 3
+				sine_values[18] = 0
+				sine_values[19] = 3
+				sine_values[20] = 13
+				sine_values[21] = 29
+				sine_values[22] = 50
+				sine_values[23] = 74
+				sine_values[24] = 100
+				return 0 ± 5%
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

@@ -1,0 +1,96 @@
+$testobject {
+	$declarations '''
+		/* Module specific Declarations */
+	'''
+	$definitions '''
+		/* Module specific Definitions */
+	'''
+
+	$testcase 1 {
+		$name "Initialize"
+		$uuid "91c43a6e-2edf-41c4-9e33-c075eaa97229"
+		$specification """
+			No input values required
+		"""
+		$description """
+			Stack variables are initialized
+		"""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "d4025c24-79d4-4bce-a592-47bd2fb576f3"
+			$inputs {
+				ulStack[0] = 39396
+				ulStack[1] = 51005
+				ulStack[2] = 21889
+				ulStack[3] = 40039
+				ulStack[4] = 54785
+				ulStack[5] = 9954
+				ulStack[6] = 52758
+				ulStack[7] = 18596
+				ulStack[8] = 40302
+				ulStack[9] = 45895
+				ulStack[10] = 33515
+				ulStack[11] = 20050
+				ulStack[12] = 38507
+				ulStack[13] = 16544
+				ulStack[14] = 4768
+				ulStack[15] = 45072
+				ulStack[16] = 46372
+				ulStack[17] = 20332
+				ulStack[18] = 38389
+				ulStack[19] = 35678
+				ulStack[20] = 4939
+				ulStack[21] = 12758
+				ulStack[22] = 50123
+				ulStack[23] = 10138
+				ulStack[24] = 64646
+				ulStack[25] = 8791
+				ulStack[26] = 7327
+				ulStack[27] = 49235
+				ulStack[28] = 23751
+				ulStack[29] = 47555
+			}
+			$outputs {
+				eStackState = RUNNING
+				uErrorState = ulValue
+				uErrorState.ulValue = ERR_no_error
+				ulErrorState = ERR_no_error
+				ulStack[0] = 0
+				ulStack[1] = 0
+				ulStack[2] = 0
+				ulStack[3] = 0
+				ulStack[4] = 0
+				ulStack[5] = 0
+				ulStack[6] = 0
+				ulStack[7] = 0
+				ulStack[8] = 0
+				ulStack[9] = 0
+				ulStack[10] = 0
+				ulStack[11] = 0
+				ulStack[12] = 0
+				ulStack[13] = 0
+				ulStack[14] = 0
+				ulStack[15] = 0
+				ulStack[16] = 0
+				ulStack[17] = 0
+				ulStack[18] = 0
+				ulStack[19] = 0
+				ulStack[20] = 0
+				ulStack[21] = 0
+				ulStack[22] = 0
+				ulStack[23] = 0
+				ulStack[24] = 0
+				ulStack[25] = 0
+				ulStack[26] = 0
+				ulStack[27] = 0
+				ulStack[28] = 0
+				ulStack[29] = 0
+				ulStackCounter = 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

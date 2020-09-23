@@ -1,0 +1,56 @@
+$testobject {
+	$comment """
+		Usage of pointers
+	"""
+
+	$testcase 1 {
+		$name "Positive number"
+		$uuid "ba516442-7910-44db-a41a-61aff4061ba5"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "4847f549-0d03-41ff-94f2-4cd1f76afccc"
+			$inputs {
+				pCharBuf = target_pCharBuf_1
+				&target_pCharBuf_1[0] = 0x35
+				&target_pCharBuf_1[1] = 0x36
+				&target_pCharBuf_1[2] = 0x32
+				&target_pCharBuf_1[3] = 0x33
+				&target_pCharBuf_1[4] = 0x34
+				&target_pCharBuf_1[5] = 0
+			}
+			$outputs {
+				return 56234
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Negative number"
+		$uuid "6187f1a2-0037-4aa3-9436-f44b03422e99"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "482851b7-98f7-43d0-866f-00ffb75d3acd"
+			$inputs {
+				pCharBuf = target_pCharBuf_2
+				&target_pCharBuf_2[0] = 0x2D
+				&target_pCharBuf_2[1] = 0x31
+				&target_pCharBuf_2[2] = 0x32
+				&target_pCharBuf_2[3] = 0x33
+				&target_pCharBuf_2[4] = 0x34
+				&target_pCharBuf_2[5] = 0x35
+				&target_pCharBuf_2[6] = 0
+			}
+			$outputs {
+				return -12345
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}
